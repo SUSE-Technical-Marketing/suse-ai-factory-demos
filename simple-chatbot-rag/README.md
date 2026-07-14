@@ -13,13 +13,22 @@ You deploy the blueprint, then adjust a handful of values for your environment.
 
 ---
 
-## What you can demo
+## The two demos in this blueprint
 
-| Capability | What the audience sees |
-|---|---|
-| **Private LLM chat** | A ChatGPT‑style UI answering from a locally‑served model (`gemma:2b`), no external API. |
-| **RAG (grounded answers)** | Upload your own documents; the bot answers questions from them **with citations**, and visibly *doesn't* know the same facts without the docs. |
-| **MCPO tool calling** | The bot uses a real **MCP tool** (a persistent knowledge‑graph "memory") through the open‑webui‑mcpo OpenAPI proxy — "remember this" / "what do you know about me?". |
+This blueprint powers **two independent demos** — run either on its own.
+
+| Demo | What the audience sees | Hardware | Model |
+|---|---|---|---|
+| **1 — RAG (grounded answers)** | Upload your docs; the bot answers **with citations** and visibly *doesn't* know the same facts without them. | **CPU is fine** | `gemma:2b` (default) |
+| **2 — MCPO memory tool** | The bot **writes to and reads from a persistent knowledge‑graph "memory"** across chats via an MCP tool. | **GPU strongly recommended** | `qwen2.5:7b` |
+
+- **The RAG demo needs nothing from MCPO** — just the web UI reachable and a model. You can skip the
+  `TOOL_SERVER_CONNECTIONS` wiring entirely if RAG is all you're showing.
+- **The MCPO demo really needs a GPU.** Reliable tool-calling needs a **7B model** (`qwen2.5:7b`); on CPU that's
+  too slow to demo. It also needs **Native function calling** turned on (see Demo 2). A 3B model on CPU technically
+  works but fumbles the tool calls.
+
+Full walkthroughs: **[Demo 1 — RAG](#demo-1--rag-grounded-answers)** and **[Demo 2 — MCPO memory](#demo-2--mcpo-memory-tool-needs-a-gpu)** below.
 
 ---
 
@@ -32,6 +41,11 @@ The blueprint deploys three apps into one namespace (`simple-chatbot-with-rag-sy
 | `ollama` | Serves the LLM (`gemma:2b`) at `ollama:11434`. |
 | `open-webui` | Chat UI + built‑in RAG (ChromaDB + embeddings). Exposed via Ingress. |
 | `open-webui-mcpo` | MCP‑to‑OpenAPI proxy exposing MCP tools (the `memory` server) at `open-webui-mcpo:8000`. |
+
+> **You'll also see an `open-webui-redis` pod.** It's not a separate blueprint app — open-webui's websocket
+> support (`websocket.enabled: true` / `websocket.redis.enabled: true` in the `open-webui` values) brings up a
+> small Redis for session/websocket state. To drop it, set `websocket.redis.enabled: false` (or
+> `websocket.enabled: false`) in the `open-webui` values.
 
 ---
 
@@ -98,10 +112,10 @@ replace the existing ones). Unlike the ingress/TLS choice below, **these are ide
 
 - **`INSTALL_NLTK_DATASETS: "false"`** — the default `"true"` re-downloads NLTK data on every restart and can
   hang on GitHub rate-limits (a 429 will 500 the UI). Turn it off.
-- **`TOOL_SERVER_CONNECTIONS`** — auto-registers the mcpo "memory" tool at boot, so no one adds it in the UI.
-  open-webui fetches tool servers **from its backend pod**, so this points at the **internal Service**
-  (`open-webui-mcpo:8000`) — same value in every option, **no NodePort or mcpo Ingress needed**. Always keep the
-  **`/memory`** suffix — the tool won't load without it.
+- **`TOOL_SERVER_CONNECTIONS`** *(Demo 2 / MCPO only — skip it for a RAG-only setup)* — auto-registers the mcpo
+  "memory" tool at boot, so no one adds it in the UI. open-webui fetches tool servers **from its backend pod**, so
+  this points at the **internal Service** (`open-webui-mcpo:8000`) — same value in every option, **no NodePort or
+  mcpo Ingress needed**. Always keep the **`/memory`** suffix — the tool won't load without it.
 
 ```yaml
 extraEnvVars:                        # append to the existing list — keep the entries already there
@@ -268,7 +282,7 @@ open‑webui loads OpenAPI tool servers **from its backend pod** (not the browse
 ```bash
 NS=simple-chatbot-with-rag-system
 kubectl -n $NS get pods
-# ollama, open-webui-0, open-webui-mcpo all Running/Ready
+# ollama, open-webui-0, open-webui-mcpo, open-webui-redis all Running/Ready
 
 # model present?
 kubectl -n $NS exec deploy/ollama -- ollama list      # -> gemma:2b (or qwen2.5:3b)
@@ -283,14 +297,30 @@ curl -kI https://suse-ollama-webui.<your-domain>/     # -> HTTP 200
 
 ---
 
-# Demo Instructions
+# Demo 1 — RAG (grounded answers)
 
-### 0. First‑run setup
-1. Open the chat URL. **The first account you create becomes the admin.**
-2. Confirm **`gemma:2b`** is selected in the model dropdown (it's the default).
-3. Send "hi" to warm the model up before the audience arrives — the first CPU response is the slowest.
+Runs on **CPU** with the default `gemma:2b`. Needs only the web UI reachable — **no MCPO wiring required**.
 
-### 1. RAG demo — grounded answers with citations
+### Expose the UI (pick one)
+Certs only matter for the Ingress path — see [Certificate options](#certificate-options-at-a-glance).
+
+| Method | `open-webui` value changes | Reach it at |
+|---|---|---|
+| **Ingress** | `ingress.class: traefik`, `ingress.host: <host>` | `http(s)://<host>` (add a hosts/DNS entry → ingress node) |
+| **NodePort** | `ingress.enabled: false`, `service.type: NodePort`, `service.nodePort: 30080` | `http://<node-ip>:30080` |
+| **LoadBalancer** | `ingress.enabled: false`, `service.type: LoadBalancer` | `http://<external-ip>/` — needs an LB provider (MetalLB / cloud / RKE2 svclb) |
+
+> **LoadBalancer:** watch the Service until it's assigned an address, then browse the `EXTERNAL-IP`:
+> ```bash
+> kubectl -n <ns> get svc open-webui -w
+> ```
+
+### First-run setup
+1. Open the URL. **The first account you create becomes the admin.**
+2. Confirm **`gemma:2b`** is selected in the model dropdown.
+3. Send "hi" to warm the model up — the first CPU response is the slowest.
+
+### Run the demo
 1. **Workspace → Knowledge → Create** a knowledge base named **"Event Horizon"**.
 2. Upload the included **[`project_event_horizon_facility.pdf`](./project_event_horizon_facility.pdf)**.
 3. Open a new chat, type **`#`** and select **Event Horizon** to attach it.
@@ -306,17 +336,48 @@ curl -kI https://suse-ollama-webui.<your-domain>/     # -> HTTP 200
 | "How much municipal water does the facility use?" | Zero — no additional water |
 | "Why is the facility's exterior deep purple?" | A light-absorbent polymer for radiation shielding / thermal-signature obfuscation |
 
-### 2. MCPO demo — the memory tool
-1. In a chat, click the **🔧 tools icon** in the message bar and toggle **memory** on.
-2. Say: *"Use the memory tool to remember that my favorite database is PostgreSQL and I work on the Orion team."*
-3. Then: *"What do you know about me?"* — the bot calls the memory tool and recalls it from the knowledge graph.
+> 🎥 **Video:** _add the RAG demo walkthrough link here._
 
-> **Model note:** `gemma:2b` is light on tool‑calling and may not always invoke the tool. For a crisp
-> tool demo, pull a tool‑capable small model that still runs on CPU:
-> ```bash
-> kubectl -n simple-chatbot-with-rag-system exec deploy/ollama -- ollama pull qwen2.5:3b
-> ```
-> then set `DEFAULT_MODELS=qwen2.5:3b` (and add it to the ollama `models.pull`/`models.run` lists).
+---
+
+# Demo 2 — MCPO memory tool (needs a GPU)
+
+The memory tool lets the bot **write to and read from a persistent knowledge graph across chats**. This is the
+one demo where CPU isn't enough — reliable tool-calling needs a **7B model on a GPU**, so budget for that.
+
+### Requirements
+- **GPU enabled** on `ollama` — see [Optional: Enable the GPU](#optional-enable-the-gpu). A 7B model on CPU is too slow to demo live.
+- **`qwen2.5:7b`** as the model — `gemma:2b` / `qwen2.5:3b` fumble the tool calls (wrong function, or fake JSON that never fires).
+- **`TOOL_SERVER_CONNECTIONS`** wired — see [Two open-webui settings](#two-open-webui-settings-youll-add-same-in-every-option). The `memory` tool then auto-loads; no UI step.
+- **Native function calling ON** — the single biggest reliability fix.
+
+### Setup
+1. Pull the model and make it the default:
+   ```bash
+   kubectl -n <ns> exec deploy/ollama -- ollama pull qwen2.5:7b
+   ```
+   Set `DEFAULT_MODELS=qwen2.5:7b` and add `qwen2.5:7b` to the ollama `models.pull` / `models.run` lists so it survives a redeploy.
+2. **Turn on Native function calling:** Admin Panel → Settings → Models → *(your model)* → Advanced Params →
+   **Function Calling → `Native`**. The prompt-based "Default" mode makes the model emit fake JSON (a `{}` or a
+   JSON blob) that never becomes a real tool call.
+
+### Run the demo
+1. New chat → click the **🔧 tools icon** → toggle **memory** on. Keep RAG out of it — **don't `#`-attach a
+   knowledge base**, or the retriever muddies the tool answers.
+2. **Store** — lead with "**create**" so it calls `create_entities` (not `add_observations` on an entity that
+   doesn't exist yet):
+   > *"Create a memory entry for me: I'm Erin, I work at SUSE on the AI team. Our project is Project Orion,
+   > which launches November 14, 2026. Sarah Jenkins is its lead architect and David Vance is the co-lead, and
+   > I report to Sarah."*
+3. **Recall in a brand-new chat** (memory on, nothing attached) — no chat history, yet it still knows. That's the payoff:
+   > - *"What do you know about me?"*  → Erin, SUSE, AI team
+   > - *"Who leads Project Orion?"*  → Sarah Jenkins (lead), David Vance (co-lead)
+   > - *"Who do I report to?"*  → Sarah Jenkins
+
+> **If the store errors** with *"entity not found"* (a `500` on `add_observations`), the model skipped the
+> create step — just retry, or re-lead with "**Create** a memory entry…". It's non-deterministic even on 7B.
+
+> 🎥 **Video:** _add the MCPO demo walkthrough link here._
 
 ---
 
@@ -340,7 +401,8 @@ is obvious and easy to verify. Upload it to the **Event Horizon** knowledge base
 | UI returns **500 / redirects to `/error`** | `INSTALL_NLTK_DATASETS=true` hit a GitHub 429 and hangs on a download prompt | Set `INSTALL_NLTK_DATASETS: "false"` and restart. |
 | **"Failed to connect … OpenAPI tool server"** in the UI | wrong tool URL, or mcpo pod not ready | Use `http://open-webui-mcpo:8000/memory`; confirm the mcpo pod is Running. |
 | Tool server added but **no tools appear** | URL missing the `/memory` subpath, so open‑webui loads the empty root spec | Use `…/memory` in the tool URL. |
-| Tool **never invoked** in chat | `gemma:2b` is light on tool-calling | Switch to `qwen2.5:3b`. |
+| Tool **never invoked**, or model prints a JSON blob / `{}` instead of calling it | prompt-based tool mode, or too-small a model | Turn **Function Calling → Native** on the model, and use **`qwen2.5:7b`** (see Demo 2). |
+| Memory store fails: **`500` on `add_observations`** / "entity not found" | model called `add_observations` before `create_entities` | Lead the prompt with "**Create** a memory entry…"; retry (non-deterministic). |
 | Cert stuck **`Certificate READY=False`**, challenge pending | DNS‑01 self‑check resolver (`8.8.8.8`) not seeing the record | Point cert‑manager at `1.1.1.1` (see Option 3 note). |
 | Pods **ImagePullBackOff** from `dp.apps.rancher.io` | No pull secret | Ensure the `application-collection` secret exists in the namespace, or set `global.imagePullSecrets`. |
 | GPU model stays on CPU | `nvidia.com/gpu` not schedulable / no runtime class | Confirm the GPU Operator is installed and the node advertises `nvidia.com/gpu`; set `runtimeClassName: nvidia` if required. |
