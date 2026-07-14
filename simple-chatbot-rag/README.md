@@ -99,31 +99,23 @@ Fields not mentioned keep their defaults (the RAG settings `VECTOR_DB: chroma`, 
 
 ---
 
-## Two open-webui settings you'll add (same in every option)
+## Required open-webui setting (all options)
 
-Two environment variables go in the **`open-webui`** app's values, inside its **`extraEnvVars`** list — the
-same list that already contains `DEFAULT_MODELS`, `VECTOR_DB`, etc. **Append them as new list entries** (don't
-replace the existing ones). Unlike the ingress/TLS choice below, **these are identical for all three options**:
+One environment variable goes in the **`open-webui`** app's values, inside its **`extraEnvVars`** list — the
+same list that already contains `DEFAULT_MODELS`, `VECTOR_DB`, etc. **Append it as a new entry** (don't replace
+the existing ones). It's the same for every option and needed for **both demos**:
 
 - **`INSTALL_NLTK_DATASETS: "false"`** — the default `"true"` re-downloads NLTK data on every restart and can
   hang on GitHub rate-limits (a 429 will 500 the UI). Turn it off.
-- **`TOOL_SERVER_CONNECTIONS`** *(Demo 2 / MCPO only — skip it for a RAG-only setup)* — auto-registers the mcpo
-  "memory" tool at boot, so no one adds it in the UI. open-webui fetches tool servers **from its backend pod**, so
-  this points at the **internal Service** (`open-webui-mcpo:8000`) — same value in every option, **no NodePort or
-  mcpo Ingress needed**. Always keep the **`/memory`** suffix — the tool won't load without it.
 
 ```yaml
 extraEnvVars:                        # append to the existing list — keep the entries already there
   - name: INSTALL_NLTK_DATASETS
     value: "false"
-  - name: TOOL_SERVER_CONNECTIONS
-    value: '[{"url":"http://open-webui-mcpo:8000/memory","path":"openapi.json","type":"openapi","auth_type":"bearer","headers":null,"key":"","config":{"enable":true,"function_name_filter_list":"","access_control":null},"spec_type":"url","spec":"","info":{"id":"","name":"memory","description":""}}]'
 ```
 
-> ⚠️ **`TOOL_SERVER_CONNECTIONS` must be a single-line, single-quoted string.** If the values editor pretty-prints
-> it into nested YAML, the pod fails to create with `cannot unmarshal array into … EnvVar…value of type string`;
-> a `>-` folded block silently injects spaces into the URL (`open-webui-␣␣␣mcpo`). Single quotes are required
-> because the JSON uses double quotes.
+> The MCPO **`TOOL_SERVER_CONNECTIONS`** wiring is **not** needed for the RAG demo — it's added only in
+> **[Demo 2 — MCPO memory](#demo-2--mcpo-memory-tool-needs-a-gpu)**, so you can get straight to the RAG demo.
 
 ---
 
@@ -340,10 +332,10 @@ Certs only matter for the Ingress path — see [Certificate options](#certificat
 The memory tool lets the bot **write to and read from a persistent knowledge graph across chats**. This is the
 one demo where CPU isn't enough — reliable tool-calling needs a **7B model on a GPU**, so budget for that.
 
-### Requirements
+### Requirements (beyond the RAG demo's setup)
 - **GPU enabled** on `ollama` — see [Optional: Enable the GPU](#optional-enable-the-gpu). A 7B model on CPU is too slow to demo live.
 - **`qwen2.5:7b`** as the model — `gemma:2b` / `qwen2.5:3b` fumble the tool calls (wrong function, or fake JSON that never fires).
-- **`TOOL_SERVER_CONNECTIONS`** wired — see [Two open-webui settings](#two-open-webui-settings-youll-add-same-in-every-option). The `memory` tool then auto-loads; no UI step.
+- **`TOOL_SERVER_CONNECTIONS`** wired (Setup step 2) so the `memory` tool auto-loads — no UI step.
 - **Native function calling ON** — the single biggest reliability fix.
 
 ### Setup
@@ -352,7 +344,18 @@ one demo where CPU isn't enough — reliable tool-calling needs a **7B model on 
    kubectl -n <ns> exec deploy/ollama -- ollama pull qwen2.5:7b
    ```
    Set `DEFAULT_MODELS=qwen2.5:7b` and add `qwen2.5:7b` to the ollama `models.pull` / `models.run` lists so it survives a redeploy.
-2. **Turn on Native function calling:** Admin Panel → Settings → Models → *(your model)* → Advanced Params →
+2. **Wire the mcpo memory tool** — add `TOOL_SERVER_CONNECTIONS` to the `open-webui` `extraEnvVars` list (next to
+   `INSTALL_NLTK_DATASETS`). open-webui loads it from its backend pod, so it points at the **internal Service**
+   (`open-webui-mcpo:8000`) — no NodePort or mcpo Ingress. Keep the **`/memory`** suffix:
+   ```yaml
+   extraEnvVars:                      # append — keep INSTALL_NLTK_DATASETS and the rest
+     - name: TOOL_SERVER_CONNECTIONS
+       value: '[{"url":"http://open-webui-mcpo:8000/memory","path":"openapi.json","type":"openapi","auth_type":"bearer","headers":null,"key":"","config":{"enable":true,"function_name_filter_list":"","access_control":null},"spec_type":"url","spec":"","info":{"id":"","name":"memory","description":""}}]'
+   ```
+   > ⚠️ Must be a **single-line, single-quoted** string. If the editor pretty-prints it into nested YAML the pod
+   > fails with `cannot unmarshal array into … EnvVar…value of type string`; a `>-` fold injects spaces into the
+   > URL (`open-webui-␣␣␣mcpo`).
+3. **Turn on Native function calling:** Admin Panel → Settings → Models → *(your model)* → Advanced Params →
    **Function Calling → `Native`**. The prompt-based "Default" mode makes the model emit fake JSON (a `{}` or a
    JSON blob) that never becomes a real tool call.
 
@@ -363,9 +366,9 @@ one demo where CPU isn't enough — reliable tool-calling needs a **7B model on 
    doesn't exist yet):
    > *"Create a memory entity for me: I'm Erin, I work at SUSE on the AI team, and my favorite database is PostgreSQL. Whenever I’m working on a Linux workstation or server, I’m working on OpenSUSE or SUSE Linux Enterprise Server. Also give me commands the SUSE Operating systems"*
 3. **Recall in a brand-new chat** (memory on, nothing attached) — no chat history, yet it still knows. That's the payoff:
-   > - *"What do you know about me?"*  → Erin, SUSE, AI team
-   > - *"Who leads Project Orion?"*  → Sarah Jenkins (lead), David Vance (co-lead)
-   > - *"Who do I report to?"*  → Sarah Jenkins
+   > - *"What do you know about me?"*  → Erin, works at SUSE on the AI team, favorite database PostgreSQL, runs OpenSUSE / SLES
+   > - *"What's my favorite database?"*  → PostgreSQL
+   > - *"How do I install and update a package on my system?"*  → gives **`zypper`** commands (`zypper install …`, `zypper update`) — because it remembers you run SUSE/OpenSUSE, it applies the preference **without you saying so in this chat**. That "it just knows my environment" moment is the demo.
 
 > **If the store errors** with *"entity not found"* (a `500` on `add_observations`), the model skipped the
 > create step — just retry, or re-lead with "**Create** a memory entry…". It's non-deterministic even on 7B.
