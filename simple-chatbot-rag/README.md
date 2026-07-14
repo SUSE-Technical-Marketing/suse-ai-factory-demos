@@ -17,9 +17,9 @@ You deploy the blueprint, then adjust a handful of values for your environment.
 
 This blueprint powers **two independent demos** — run either on its own.
 
-| Demo | What the audience sees | Hardware | Model |
+| Demo | What the audience sees | Hardware | Minimal Model |
 |---|---|---|---|
-| **1 — RAG (grounded answers)** | Upload your docs; the bot answers **with citations** and visibly *doesn't* know the same facts without them. | **CPU is fine** | `gemma:2b` (default) |
+| **1 — RAG (grounded answers)** | Upload your docs; the bot answers **with citations** and visibly *doesn't* know the same facts without them. | **CPU is fine** | `qwen2.5:3b`  |
 | **2 — MCPO memory tool** | The bot **writes to and reads from a persistent knowledge‑graph "memory"** across chats via an MCP tool. | **GPU strongly recommended** | `qwen2.5:7b` |
 
 - **The RAG demo needs nothing from MCPO** — just the web UI reachable and a model. You can skip the
@@ -41,11 +41,6 @@ The blueprint deploys three apps into one namespace (`simple-chatbot-with-rag-sy
 | `ollama` | Serves the LLM (`gemma:2b`) at `ollama:11434`. |
 | `open-webui` | Chat UI + built‑in RAG (ChromaDB + embeddings). Exposed via Ingress. |
 | `open-webui-mcpo` | MCP‑to‑OpenAPI proxy exposing MCP tools (the `memory` server) at `open-webui-mcpo:8000`. |
-
-> **You'll also see an `open-webui-redis` pod.** It's not a separate blueprint app — open-webui's websocket
-> support (`websocket.enabled: true` / `websocket.redis.enabled: true` in the `open-webui` values) brings up a
-> small Redis for session/websocket state. To drop it, set `websocket.redis.enabled: false` (or
-> `websocket.enabled: false`) in the `open-webui` values.
 
 ---
 
@@ -282,7 +277,7 @@ open‑webui loads OpenAPI tool servers **from its backend pod** (not the browse
 ```bash
 NS=simple-chatbot-with-rag-system
 kubectl -n $NS get pods
-# ollama, open-webui-0, open-webui-mcpo, open-webui-redis all Running/Ready
+# ollama, open-webui-0, open-webui-mcpo all Running/Ready
 
 # model present?
 kubectl -n $NS exec deploy/ollama -- ollama list      # -> gemma:2b (or qwen2.5:3b)
@@ -317,7 +312,7 @@ Certs only matter for the Ingress path — see [Certificate options](#certificat
 
 ### First-run setup
 1. Open the URL. **The first account you create becomes the admin.**
-2. Confirm **`gemma:2b`** is selected in the model dropdown.
+2. Confirm **`qwen2.5:3b`** is selected in the model dropdown.
 3. Send "hi" to warm the model up — the first CPU response is the slowest.
 
 ### Run the demo
@@ -366,9 +361,7 @@ one demo where CPU isn't enough — reliable tool-calling needs a **7B model on 
    knowledge base**, or the retriever muddies the tool answers.
 2. **Store** — lead with "**create**" so it calls `create_entities` (not `add_observations` on an entity that
    doesn't exist yet):
-   > *"Create a memory entry for me: I'm Erin, I work at SUSE on the AI team. Our project is Project Orion,
-   > which launches November 14, 2026. Sarah Jenkins is its lead architect and David Vance is the co-lead, and
-   > I report to Sarah."*
+   > *"Create a memory entity for me: I'm Erin, I work at SUSE on the AI team, and my favorite database is PostgreSQL. Whenever I’m working on a Linux workstation or server, I’m working on OpenSUSE or SUSE Linux Enterprise Server. Also give me commands the SUSE Operating systems"*
 3. **Recall in a brand-new chat** (memory on, nothing attached) — no chat history, yet it still knows. That's the payoff:
    > - *"What do you know about me?"*  → Erin, SUSE, AI team
    > - *"Who leads Project Orion?"*  → Sarah Jenkins (lead), David Vance (co-lead)
