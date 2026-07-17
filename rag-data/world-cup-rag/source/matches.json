@@ -1,0 +1,844 @@
+[
+  {
+    "date": "June 28, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "South Africa",
+    "home_score": 0,
+    "away_score": 1,
+    "away_team": "Canada",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Eust\u00e1quio",
+        "minute": "",
+        "team": "Canada"
+      }
+    ],
+    "venue": "SoFi Stadium, Inglewood",
+    "attendance": 69237,
+    "referee": "Jo\u00e3o Pinheiro"
+  },
+  {
+    "date": "June 29, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Brazil",
+    "home_score": 2,
+    "away_score": 1,
+    "away_team": "Japan",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Casemiro",
+        "minute": "",
+        "team": "Brazil"
+      },
+      {
+        "player": "Martinelli",
+        "minute": "",
+        "team": "Brazil"
+      },
+      {
+        "player": "Sano",
+        "minute": "",
+        "team": "Japan"
+      }
+    ],
+    "venue": "NRG Stadium, Houston",
+    "attendance": 68777,
+    "referee": "Maurizio Mariani"
+  },
+  {
+    "date": "June 29, 2026",
+    "time": "4:30 p.m.",
+    "home_team": "Germany",
+    "home_score": 1,
+    "away_score": 0,
+    "away_team": "Paraguay",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Havertz",
+        "minute": "",
+        "team": "Germany"
+      },
+      {
+        "player": "Enciso",
+        "minute": "",
+        "team": "Paraguay"
+      }
+    ],
+    "venue": "Gillette Stadium, Foxborough",
+    "attendance": 63945,
+    "referee": "Jalal Jayed"
+  },
+  {
+    "date": "June 29, 2026",
+    "time": "7:00 p.m.",
+    "home_team": "Netherlands",
+    "home_score": 1,
+    "away_score": 0,
+    "away_team": "Morocco",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Gakpo",
+        "minute": "",
+        "team": "Netherlands"
+      },
+      {
+        "player": "Diop",
+        "minute": "",
+        "team": "Morocco"
+      }
+    ],
+    "venue": "Estadio BBVA, Guadalupe",
+    "attendance": 51243,
+    "referee": "Wilton Sampaio"
+  },
+  {
+    "date": "June 30, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Ivory Coast",
+    "home_score": 1,
+    "away_score": 2,
+    "away_team": "Norway",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Diallo",
+        "minute": "",
+        "team": "Ivory Coast"
+      },
+      {
+        "player": "Nusa",
+        "minute": "",
+        "team": "Norway"
+      },
+      {
+        "player": "Haaland",
+        "minute": "",
+        "team": "Norway"
+      }
+    ],
+    "venue": "AT&T Stadium, Arlington",
+    "attendance": 69665,
+    "referee": "Jes\u00fas Valenzuela"
+  },
+  {
+    "date": "June 30, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "France",
+    "home_score": 3,
+    "away_score": 0,
+    "away_team": "Sweden",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Mbapp\u00e9",
+        "minute": ",",
+        "team": "France"
+      },
+      {
+        "player": "Barcola",
+        "minute": "",
+        "team": "France"
+      }
+    ],
+    "venue": "MetLife Stadium, East Rutherford",
+    "attendance": 80663,
+    "referee": "Danny Makkelie"
+  },
+  {
+    "date": "June 30, 2026",
+    "time": "8:00 p.m.",
+    "home_team": "Mexico",
+    "home_score": 2,
+    "away_score": 0,
+    "away_team": "Ecuador",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Qui\u00f1ones",
+        "minute": "",
+        "team": "Mexico"
+      },
+      {
+        "player": "Jim\u00e9nez",
+        "minute": "",
+        "team": "Mexico"
+      }
+    ],
+    "venue": "Estadio Azteca, Mexico City",
+    "attendance": 80824,
+    "referee": "Slavko Vin\u010di\u0107"
+  },
+  {
+    "date": "July 1, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "England",
+    "home_score": 2,
+    "away_score": 1,
+    "away_team": "DR Congo",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Kane",
+        "minute": ",",
+        "team": "England"
+      },
+      {
+        "player": "Cipenga",
+        "minute": "",
+        "team": "DR Congo"
+      }
+    ],
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "attendance": 68239,
+    "referee": "Adham Makhadmeh"
+  },
+  {
+    "date": "July 1, 2026",
+    "time": "1:00 p.m.",
+    "home_team": "Belgium",
+    "home_score": 3,
+    "away_score": 0,
+    "away_team": "Senegal",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Lukaku",
+        "minute": "",
+        "team": "Belgium"
+      },
+      {
+        "player": "Tielemans",
+        "minute": ",",
+        "team": "Belgium"
+      },
+      {
+        "player": "Diarra",
+        "minute": "",
+        "team": "Senegal"
+      },
+      {
+        "player": "I. Sarr",
+        "minute": "",
+        "team": "Senegal"
+      }
+    ],
+    "venue": "Lumen Field, Seattle",
+    "attendance": 66925,
+    "referee": "Sa\u00edd Mart\u00ednez"
+  },
+  {
+    "date": "July 1, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "United States",
+    "home_score": 2,
+    "away_score": 0,
+    "away_team": "Bosnia and Herzegovina",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Balogun",
+        "minute": "",
+        "team": "United States"
+      },
+      {
+        "player": "Tillman",
+        "minute": "",
+        "team": "United States"
+      }
+    ],
+    "venue": "Levi's Stadium, Santa Clara",
+    "attendance": 68827,
+    "referee": "Raphael Claus"
+  },
+  {
+    "date": "July 2, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Spain",
+    "home_score": 3,
+    "away_score": 0,
+    "away_team": "Austria",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Oyarzabal",
+        "minute": ",",
+        "team": "Spain"
+      },
+      {
+        "player": "Porro",
+        "minute": "",
+        "team": "Spain"
+      }
+    ],
+    "venue": "SoFi Stadium, Inglewood",
+    "attendance": 70492,
+    "referee": "Glenn Nyberg"
+  },
+  {
+    "date": "July 2, 2026",
+    "time": "7:00 p.m.",
+    "home_team": "Portugal",
+    "home_score": 2,
+    "away_score": 1,
+    "away_team": "Croatia",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Ronaldo",
+        "minute": "",
+        "team": "Portugal"
+      },
+      {
+        "player": "Ramos",
+        "minute": "",
+        "team": "Portugal"
+      },
+      {
+        "player": "Peri\u0161i\u0107",
+        "minute": "",
+        "team": "Croatia"
+      }
+    ],
+    "venue": "BMO Field, Toronto",
+    "attendance": 43036,
+    "referee": "Espen Esk\u00e5s"
+  },
+  {
+    "date": "July 2, 2026",
+    "time": "8:00 p.m.",
+    "home_team": "Switzerland",
+    "home_score": 2,
+    "away_score": 0,
+    "away_team": "Algeria",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Embolo",
+        "minute": "",
+        "team": "Switzerland"
+      },
+      {
+        "player": "Ndoye",
+        "minute": "",
+        "team": "Switzerland"
+      }
+    ],
+    "venue": "BC Place, Vancouver",
+    "attendance": 52497,
+    "referee": "Yael Falc\u00f3n"
+  },
+  {
+    "date": "July 3, 2026",
+    "time": "1:00 p.m.",
+    "home_team": "Australia",
+    "home_score": 1,
+    "away_score": 0,
+    "away_team": "Egypt",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Hany",
+        "minute": "",
+        "team": "Australia"
+      },
+      {
+        "player": "Ashour",
+        "minute": "",
+        "team": "Egypt"
+      }
+    ],
+    "venue": "AT&T Stadium, Arlington",
+    "attendance": 70244,
+    "referee": "Gustavo Tejera"
+  },
+  {
+    "date": "July 3, 2026",
+    "time": "6:00 p.m.",
+    "home_team": "Argentina",
+    "home_score": 3,
+    "away_score": 0,
+    "away_team": "Cape Verde",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Messi",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Li. Mart\u00ednez",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Diney",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "D. Duarte",
+        "minute": "",
+        "team": "Cape Verde"
+      },
+      {
+        "player": "Lopes Cabral",
+        "minute": "",
+        "team": "Cape Verde"
+      }
+    ],
+    "venue": "Hard Rock Stadium, Miami Gardens",
+    "attendance": 64478,
+    "referee": "Drew Fischer"
+  },
+  {
+    "date": "July 3, 2026",
+    "time": "8:30 p.m.",
+    "home_team": "Colombia",
+    "home_score": 1,
+    "away_score": 0,
+    "away_team": "Ghana",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "J. Arias",
+        "minute": "",
+        "team": "Colombia"
+      }
+    ],
+    "venue": "Arrowhead Stadium, Kansas City",
+    "attendance": 69045,
+    "referee": "Cl\u00e9ment Turpin"
+  },
+  {
+    "date": "July 4, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Canada",
+    "home_score": 0,
+    "away_score": 3,
+    "away_team": "Morocco",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Ounahi",
+        "minute": ",",
+        "team": "Morocco"
+      },
+      {
+        "player": "Rahimi",
+        "minute": "",
+        "team": "Morocco"
+      }
+    ],
+    "venue": "NRG Stadium, Houston",
+    "attendance": 68777,
+    "referee": "Michael Oliver"
+  },
+  {
+    "date": "July 4, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "Paraguay",
+    "home_score": 0,
+    "away_score": 1,
+    "away_team": "France",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Mbapp\u00e9",
+        "minute": "",
+        "team": "France"
+      }
+    ],
+    "venue": "Lincoln Financial Field, Philadelphia",
+    "attendance": 68324,
+    "referee": "Ilgiz Tantashev"
+  },
+  {
+    "date": "July 5, 2026",
+    "time": "4:00 p.m.",
+    "home_team": "Brazil",
+    "home_score": 1,
+    "away_score": 2,
+    "away_team": "Norway",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Neymar",
+        "minute": "",
+        "team": "Brazil"
+      },
+      {
+        "player": "Haaland",
+        "minute": ",",
+        "team": "Norway"
+      }
+    ],
+    "venue": "MetLife Stadium, East Rutherford",
+    "attendance": 80663,
+    "referee": "Ismail Elfath"
+  },
+  {
+    "date": "July 5, 2026",
+    "time": "7:00 p.m.",
+    "home_team": "Mexico",
+    "home_score": 2,
+    "away_score": 3,
+    "away_team": "England",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Qui\u00f1ones",
+        "minute": "",
+        "team": "Mexico"
+      },
+      {
+        "player": "Jim\u00e9nez",
+        "minute": "",
+        "team": "Mexico"
+      },
+      {
+        "player": "Bellingham",
+        "minute": ",",
+        "team": "England"
+      },
+      {
+        "player": "Kane",
+        "minute": "",
+        "team": "England"
+      }
+    ],
+    "venue": "Estadio Azteca, Mexico City",
+    "attendance": 80824,
+    "referee": "Alireza Faghani"
+  },
+  {
+    "date": "July 6, 2026",
+    "time": "2:00 p.m.",
+    "home_team": "Portugal",
+    "home_score": 0,
+    "away_score": 1,
+    "away_team": "Spain",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Merino",
+        "minute": "",
+        "team": "Spain"
+      }
+    ],
+    "venue": "AT&T Stadium, Arlington",
+    "attendance": 70649,
+    "referee": "Anthony Taylor"
+  },
+  {
+    "date": "July 6, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "United States",
+    "home_score": 1,
+    "away_score": 4,
+    "away_team": "Belgium",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Tillman",
+        "minute": "",
+        "team": "United States"
+      },
+      {
+        "player": "De Ketelaere",
+        "minute": ",",
+        "team": "Belgium"
+      },
+      {
+        "player": "Vanaken",
+        "minute": "",
+        "team": "Belgium"
+      },
+      {
+        "player": "Lukaku",
+        "minute": "",
+        "team": "Belgium"
+      }
+    ],
+    "venue": "Lumen Field, Seattle",
+    "attendance": 66925,
+    "referee": "Adham Makhadmeh"
+  },
+  {
+    "date": "July 7, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Argentina",
+    "home_score": 3,
+    "away_score": 2,
+    "away_team": "Egypt",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Romero",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Messi",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Fern\u00e1ndez",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Ibrahim",
+        "minute": "",
+        "team": "Egypt"
+      },
+      {
+        "player": "Ziko",
+        "minute": "",
+        "team": "Egypt"
+      }
+    ],
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "attendance": 68239,
+    "referee": "Fran\u00e7ois Letexier"
+  },
+  {
+    "date": "July 7, 2026",
+    "time": "1:00 p.m.",
+    "home_team": "Switzerland",
+    "home_score": 0,
+    "away_score": 0,
+    "away_team": "Colombia",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [],
+    "venue": "BC Place, Vancouver",
+    "attendance": 52497,
+    "referee": "Iv\u00e1n Barton"
+  },
+  {
+    "date": "July 9, 2026",
+    "time": "4:00 p.m.",
+    "home_team": "France",
+    "home_score": 2,
+    "away_score": 0,
+    "away_team": "Morocco",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Mbapp\u00e9",
+        "minute": "",
+        "team": "France"
+      },
+      {
+        "player": "Demb\u00e9l\u00e9",
+        "minute": "",
+        "team": "France"
+      }
+    ],
+    "venue": "Gillette Stadium, Foxborough",
+    "attendance": 63811,
+    "referee": "Facundo Tello"
+  },
+  {
+    "date": "July 10, 2026",
+    "time": "12:00 p.m.",
+    "home_team": "Spain",
+    "home_score": 2,
+    "away_score": 1,
+    "away_team": "Belgium",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Fabi\u00e1n",
+        "minute": "",
+        "team": "Spain"
+      },
+      {
+        "player": "Merino",
+        "minute": "",
+        "team": "Spain"
+      },
+      {
+        "player": "De Ketelaere",
+        "minute": "",
+        "team": "Belgium"
+      }
+    ],
+    "venue": "SoFi Stadium, Inglewood",
+    "attendance": 70492,
+    "referee": "Michael Oliver"
+  },
+  {
+    "date": "July 11, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "Norway",
+    "home_score": 1,
+    "away_score": 0,
+    "away_team": "England",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Schjelderup",
+        "minute": "",
+        "team": "Norway"
+      },
+      {
+        "player": "Bellingham",
+        "minute": ",",
+        "team": "England"
+      }
+    ],
+    "venue": "Hard Rock Stadium, Miami Gardens",
+    "attendance": 64478,
+    "referee": "Cl\u00e9ment Turpin"
+  },
+  {
+    "date": "July 11, 2026",
+    "time": "8:00 p.m.",
+    "home_team": "Argentina",
+    "home_score": 3,
+    "away_score": 0,
+    "away_team": "Switzerland",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Mac Allister",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Alvarez",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "La. Mart\u00ednez",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "Ndoye",
+        "minute": "",
+        "team": "Switzerland"
+      }
+    ],
+    "venue": "Arrowhead Stadium, Kansas City",
+    "attendance": 69045,
+    "referee": "Jo\u00e3o Pinheiro"
+  },
+  {
+    "date": "July 14, 2026",
+    "time": "2:00 p.m.",
+    "home_team": "France",
+    "home_score": 0,
+    "away_score": 2,
+    "away_team": "Spain",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Oyarzabal",
+        "minute": "",
+        "team": "Spain"
+      },
+      {
+        "player": "Porro",
+        "minute": "",
+        "team": "Spain"
+      }
+    ],
+    "venue": "AT&T Stadium, Arlington",
+    "attendance": 70176,
+    "referee": "Iv\u00e1n Barton"
+  },
+  {
+    "date": "July 15, 2026",
+    "time": "3:00 p.m.",
+    "home_team": "England",
+    "home_score": 1,
+    "away_score": 2,
+    "away_team": "Argentina",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [
+      {
+        "player": "Gordon",
+        "minute": "",
+        "team": "England"
+      },
+      {
+        "player": "Fern\u00e1ndez",
+        "minute": "",
+        "team": "Argentina"
+      },
+      {
+        "player": "La. Mart\u00ednez",
+        "minute": "",
+        "team": "Argentina"
+      }
+    ],
+    "venue": "Mercedes-Benz Stadium, Atlanta",
+    "attendance": 68239,
+    "referee": "Ismail Elfath"
+  },
+  {
+    "date": "July 18, 2026",
+    "time": "5:00 p.m.",
+    "home_team": "France",
+    "home_score": 0,
+    "away_score": 0,
+    "away_team": "England",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [],
+    "venue": "Hard Rock Stadium, Miami Gardens",
+    "attendance": 0,
+    "referee": ""
+  },
+  {
+    "date": "July 19, 2026",
+    "time": "3:00 p.m.",
+    "home_team": "Spain",
+    "home_score": 0,
+    "away_score": 0,
+    "away_team": "Argentina",
+    "result_type": "normal",
+    "penalty_score": null,
+    "goals": [],
+    "venue": "MetLife Stadium, East Rutherford",
+    "attendance": 0,
+    "referee": ""
+  }
+]

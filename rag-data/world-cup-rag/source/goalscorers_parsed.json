@@ -1,0 +1,1871 @@
+{
+  "goalscorers": [
+    {
+      "player": "Kylian Mbapp\u00e9",
+      "country": "FRA",
+      "goals": 8
+    },
+    {
+      "player": "Lionel Messi",
+      "country": "ARG",
+      "goals": 8
+    },
+    {
+      "player": "Erling Haaland",
+      "country": "NOR",
+      "goals": 7
+    },
+    {
+      "player": "Harry Kane",
+      "country": "ENG",
+      "goals": 6
+    },
+    {
+      "player": "Jude Bellingham",
+      "country": "ENG",
+      "goals": 6
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "country": "ESP",
+      "goals": 5
+    },
+    {
+      "player": "Ousmane Demb\u00e9l\u00e9",
+      "country": "FRA",
+      "goals": 5
+    },
+    {
+      "player": "Isma\u00efla Sarr",
+      "country": "SEN",
+      "goals": 4
+    },
+    {
+      "player": "Juli\u00e1n Qui\u00f1ones",
+      "country": "MEX",
+      "goals": 4
+    },
+    {
+      "player": "Vin\u00edcius J\u00fanior",
+      "country": "BRA",
+      "goals": 4
+    },
+    {
+      "player": "Brian Brobbey",
+      "country": "NED",
+      "goals": 3
+    },
+    {
+      "player": "Charles De Ketelaere",
+      "country": "BEL",
+      "goals": 3
+    },
+    {
+      "player": "Cody Gakpo",
+      "country": "NED",
+      "goals": 3
+    },
+    {
+      "player": "Cristiano Ronaldo",
+      "country": "POR",
+      "goals": 3
+    },
+    {
+      "player": "Deniz Undav",
+      "country": "GER",
+      "goals": 3
+    },
+    {
+      "player": "Elijah Just",
+      "country": "NZL",
+      "goals": 3
+    },
+    {
+      "player": "Folarin Balogun",
+      "country": "USA",
+      "goals": 3
+    },
+    {
+      "player": "Ismael Saibari",
+      "country": "MAR",
+      "goals": 3
+    },
+    {
+      "player": "Johan Manzambi",
+      "country": "SUI",
+      "goals": 3
+    },
+    {
+      "player": "Jonathan David",
+      "country": "CAN",
+      "goals": 3
+    },
+    {
+      "player": "Kai Havertz",
+      "country": "GER",
+      "goals": 3
+    },
+    {
+      "player": "Lautaro Mart\u00ednez",
+      "country": "ARG",
+      "goals": 3
+    },
+    {
+      "player": "Matheus Cunha",
+      "country": "BRA",
+      "goals": 3
+    },
+    {
+      "player": "Ra\u00fal Jim\u00e9nez",
+      "country": "MEX",
+      "goals": 3
+    },
+    {
+      "player": "Romelu Lukaku",
+      "country": "BEL",
+      "goals": 3
+    },
+    {
+      "player": "Yoane Wissa",
+      "country": "COD",
+      "goals": 3
+    },
+    {
+      "player": "Amad Diallo",
+      "country": "CIV",
+      "goals": 2
+    },
+    {
+      "player": "Anthony Elanga",
+      "country": "SWE",
+      "goals": 2
+    },
+    {
+      "player": "Ayase Ueda",
+      "country": "JPN",
+      "goals": 2
+    },
+    {
+      "player": "Azzedine Ounahi",
+      "country": "MAR",
+      "goals": 2
+    },
+    {
+      "player": "Bradley Barcola",
+      "country": "FRA",
+      "goals": 2
+    },
+    {
+      "player": "Breel Embolo",
+      "country": "SUI",
+      "goals": 2
+    },
+    {
+      "player": "Crysencio Summerville",
+      "country": "NED",
+      "goals": 2
+    },
+    {
+      "player": "Cyle Larin",
+      "country": "CAN",
+      "goals": 2
+    },
+    {
+      "player": "Daichi Kamada",
+      "country": "JPN",
+      "goals": 2
+    },
+    {
+      "player": "Dan Ndoye",
+      "country": "SUI",
+      "goals": 2
+    },
+    {
+      "player": "Daniel Mu\u00f1oz",
+      "country": "COL",
+      "goals": 2
+    },
+    {
+      "player": "Emam Ashour",
+      "country": "EGY",
+      "goals": 2
+    },
+    {
+      "player": "Enzo Fern\u00e1ndez",
+      "country": "ARG",
+      "goals": 2
+    },
+    {
+      "player": "Ermin Mahmi\u0107",
+      "country": "BIH",
+      "goals": 2
+    },
+    {
+      "player": "Habib Diarra",
+      "country": "SEN",
+      "goals": 2
+    },
+    {
+      "player": "Leandro Trossard",
+      "country": "BEL",
+      "goals": 2
+    },
+    {
+      "player": "Malik Tillman",
+      "country": "USA",
+      "goals": 2
+    },
+    {
+      "player": "Marko Arnautovi\u0107",
+      "country": "AUT",
+      "goals": 2
+    },
+    {
+      "player": "Maximiliano Ara\u00fajo",
+      "country": "URU",
+      "goals": 2
+    },
+    {
+      "player": "Mikel Merino",
+      "country": "ESP",
+      "goals": 2
+    },
+    {
+      "player": "Mostafa Ziko",
+      "country": "EGY",
+      "goals": 2
+    },
+    {
+      "player": "Nicolas P\u00e9p\u00e9",
+      "country": "CIV",
+      "goals": 2
+    },
+    {
+      "player": "Pape Gueye",
+      "country": "SEN",
+      "goals": 2
+    },
+    {
+      "player": "Pedro Porro",
+      "country": "ESP",
+      "goals": 2
+    },
+    {
+      "player": "Ramin Rezaeian",
+      "country": "IRN",
+      "goals": 2
+    },
+    {
+      "player": "Riyad Mahrez",
+      "country": "ALG",
+      "goals": 2
+    },
+    {
+      "player": "Rub\u00e9n Vargas",
+      "country": "SUI",
+      "goals": 2
+    },
+    {
+      "player": "Soufiane Rahimi",
+      "country": "MAR",
+      "goals": 2
+    },
+    {
+      "player": "Yasin Ayari",
+      "country": "SWE",
+      "goals": 2
+    },
+    {
+      "player": "Youri Tielemans",
+      "country": "BEL",
+      "goals": 2
+    },
+    {
+      "player": "Abbosbek Fayzullaev",
+      "country": "UZB",
+      "goals": 1
+    },
+    {
+      "player": "Abdulelah Al-Amri",
+      "country": "KSA",
+      "goals": 1
+    },
+    {
+      "player": "Achraf Hakimi",
+      "country": "MAR",
+      "goals": 1
+    },
+    {
+      "player": "Agust\u00edn Canobbio",
+      "country": "URU",
+      "goals": 1
+    },
+    {
+      "player": "Alex Freeman",
+      "country": "USA",
+      "goals": 1
+    },
+    {
+      "player": "Alexander Isak",
+      "country": "SWE",
+      "goals": 1
+    },
+    {
+      "player": "Alexis Mac Allister",
+      "country": "ARG",
+      "goals": 1
+    },
+    {
+      "player": "Alexis Saelemaekers",
+      "country": "BEL",
+      "goals": 1
+    },
+    {
+      "player": "Ali Olwan",
+      "country": "JOR",
+      "goals": 1
+    },
+    {
+      "player": "Amine Gouiri",
+      "country": "ALG",
+      "goals": 1
+    },
+    {
+      "player": "Andreas Schjelderup",
+      "country": "NOR",
+      "goals": 1
+    },
+    {
+      "player": "Ante Budimir",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Anthony Gordon",
+      "country": "ENG",
+      "goals": 1
+    },
+    {
+      "player": "Antonio Nusa",
+      "country": "NOR",
+      "goals": 1
+    },
+    {
+      "player": "Arda G\u00fcler",
+      "country": "TUR",
+      "goals": 1
+    },
+    {
+      "player": "Auston Trusty",
+      "country": "USA",
+      "goals": 1
+    },
+    {
+      "player": "Aymen Hussein",
+      "country": "IRQ",
+      "goals": 1
+    },
+    {
+      "player": "Bar\u0131\u015f Alper Y\u0131lmaz",
+      "country": "TUR",
+      "goals": 1
+    },
+    {
+      "player": "Brian Cipenga",
+      "country": "COD",
+      "goals": 1
+    },
+    {
+      "player": "Caleb Yirenkyi",
+      "country": "GHA",
+      "goals": 1
+    },
+    {
+      "player": "Casemiro",
+      "country": "BRA",
+      "goals": 1
+    },
+    {
+      "player": "Connor Metcalfe",
+      "country": "AUS",
+      "goals": 1
+    },
+    {
+      "player": "Cristian Romero",
+      "country": "ARG",
+      "goals": 1
+    },
+    {
+      "player": "Daizen Maeda",
+      "country": "JPN",
+      "goals": 1
+    },
+    {
+      "player": "Deroy Duarte",
+      "country": "CPV",
+      "goals": 1
+    },
+    {
+      "player": "Derrick Luckassen",
+      "country": "GHA",
+      "goals": 1
+    },
+    {
+      "player": "D\u00e9sir\u00e9 Dou\u00e9",
+      "country": "FRA",
+      "goals": 1
+    },
+    {
+      "player": "Eldor Shomurodov",
+      "country": "UZB",
+      "goals": 1
+    },
+    {
+      "player": "Fabi\u00e1n Ruiz",
+      "country": "ESP",
+      "goals": 1
+    },
+    {
+      "player": "Felix Nmecha",
+      "country": "GER",
+      "goals": 1
+    },
+    {
+      "player": "Finn Surman",
+      "country": "NZL",
+      "goals": 1
+    },
+    {
+      "player": "Fiston Mayele",
+      "country": "COD",
+      "goals": 1
+    },
+    {
+      "player": "Franck Kessi\u00e9",
+      "country": "CIV",
+      "goals": 1
+    },
+    {
+      "player": "Gabriel Martinelli",
+      "country": "BRA",
+      "goals": 1
+    },
+    {
+      "player": "Gessime Yassine",
+      "country": "MAR",
+      "goals": 1
+    },
+    {
+      "player": "Giovani Lo Celso",
+      "country": "ARG",
+      "goals": 1
+    },
+    {
+      "player": "Giovanni Reyna",
+      "country": "USA",
+      "goals": 1
+    },
+    {
+      "player": "Gonzalo Plata",
+      "country": "ECU",
+      "goals": 1
+    },
+    {
+      "player": "Gon\u00e7alo Ramos",
+      "country": "POR",
+      "goals": 1
+    },
+    {
+      "player": "Granit Xhaka",
+      "country": "SUI",
+      "goals": 1
+    },
+    {
+      "player": "Hans Vanaken",
+      "country": "BEL",
+      "goals": 1
+    },
+    {
+      "player": "Hassan Al-Haydos",
+      "country": "QAT",
+      "goals": 1
+    },
+    {
+      "player": "Hazem Mastouri",
+      "country": "TUN",
+      "goals": 1
+    },
+    {
+      "player": "Hwang In-beom",
+      "country": "KOR",
+      "goals": 1
+    },
+    {
+      "player": "H\u00e9lio Varela",
+      "country": "CPV",
+      "goals": 1
+    },
+    {
+      "player": "Ibrahim Mbaye",
+      "country": "SEN",
+      "goals": 1
+    },
+    {
+      "player": "Iliman Ndiaye",
+      "country": "SEN",
+      "goals": 1
+    },
+    {
+      "player": "Issa Diop",
+      "country": "MAR",
+      "goals": 1
+    },
+    {
+      "player": "Ivan Peri\u0161i\u0107",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Jamal Musiala",
+      "country": "GER",
+      "goals": 1
+    },
+    {
+      "player": "Jaminton Campaz",
+      "country": "COL",
+      "goals": 1
+    },
+    {
+      "player": "Jan Paul van Hecke",
+      "country": "NED",
+      "goals": 1
+    },
+    {
+      "player": "Jhon Arias",
+      "country": "COL",
+      "goals": 1
+    },
+    {
+      "player": "John McGinn",
+      "country": "SCO",
+      "goals": 1
+    },
+    {
+      "player": "Jovo Luki\u0107",
+      "country": "BIH",
+      "goals": 1
+    },
+    {
+      "player": "Jo\u00e3o Neves",
+      "country": "POR",
+      "goals": 1
+    },
+    {
+      "player": "Julio Enciso",
+      "country": "PAR",
+      "goals": 1
+    },
+    {
+      "player": "Juli\u00e1n Alvarez",
+      "country": "ARG",
+      "goals": 1
+    },
+    {
+      "player": "Junya It\u014d",
+      "country": "JPN",
+      "goals": 1
+    },
+    {
+      "player": "Kaan Ayhan",
+      "country": "TUR",
+      "goals": 1
+    },
+    {
+      "player": "Kaish\u016b Sano",
+      "country": "JPN",
+      "goals": 1
+    },
+    {
+      "player": "Keito Nakamura",
+      "country": "JPN",
+      "goals": 1
+    },
+    {
+      "player": "Kerim Alajbegovi\u0107",
+      "country": "BIH",
+      "goals": 1
+    },
+    {
+      "player": "Kevin De Bruyne",
+      "country": "BEL",
+      "goals": 1
+    },
+    {
+      "player": "Kevin Pina",
+      "country": "CPV",
+      "goals": 1
+    },
+    {
+      "player": "Ladislav Krej\u010d\u00ed",
+      "country": "CZE",
+      "goals": 1
+    },
+    {
+      "player": "Lamine Yamal",
+      "country": "ESP",
+      "goals": 1
+    },
+    {
+      "player": "Leo \u00d8stig\u00e5rd",
+      "country": "NOR",
+      "goals": 1
+    },
+    {
+      "player": "Leroy San\u00e9",
+      "country": "GER",
+      "goals": 1
+    },
+    {
+      "player": "Lisandro Mart\u00ednez",
+      "country": "ARG",
+      "goals": 1
+    },
+    {
+      "player": "Livano Comenencia",
+      "country": "CUW",
+      "goals": 1
+    },
+    {
+      "player": "Luis D\u00edaz",
+      "country": "COL",
+      "goals": 1
+    },
+    {
+      "player": "Luis Romo",
+      "country": "MEX",
+      "goals": 1
+    },
+    {
+      "player": "Mahmoud Saber",
+      "country": "EGY",
+      "goals": 1
+    },
+    {
+      "player": "Marcel Sabitzer",
+      "country": "AUT",
+      "goals": 1
+    },
+    {
+      "player": "Marcus Holmgren Pedersen",
+      "country": "NOR",
+      "goals": 1
+    },
+    {
+      "player": "Marcus Rashford",
+      "country": "ENG",
+      "goals": 1
+    },
+    {
+      "player": "Martin Baturina",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Mateo Ch\u00e1vez",
+      "country": "MEX",
+      "goals": 1
+    },
+    {
+      "player": "Mattias Svanberg",
+      "country": "SWE",
+      "goals": 1
+    },
+    {
+      "player": "Mat\u00edas Galarza",
+      "country": "PAR",
+      "goals": 1
+    },
+    {
+      "player": "Maur\u00edcio",
+      "country": "PAR",
+      "goals": 1
+    },
+    {
+      "player": "Michal Sad\u00edlek",
+      "country": "CZE",
+      "goals": 1
+    },
+    {
+      "player": "Mohamed Salah",
+      "country": "EGY",
+      "goals": 1
+    },
+    {
+      "player": "Mohammad Mohebi",
+      "country": "IRN",
+      "goals": 1
+    },
+    {
+      "player": "Nadhir Benbouali",
+      "country": "ALG",
+      "goals": 1
+    },
+    {
+      "player": "Nathan Saliba",
+      "country": "CAN",
+      "goals": 1
+    },
+    {
+      "player": "Nathaniel Brown",
+      "country": "GER",
+      "goals": 1
+    },
+    {
+      "player": "Nestory Irankunda",
+      "country": "AUS",
+      "goals": 1
+    },
+    {
+      "player": "Neymar",
+      "country": "BRA",
+      "goals": 1
+    },
+    {
+      "player": "Nico Schlotterbeck",
+      "country": "GER",
+      "goals": 1
+    },
+    {
+      "player": "Nikola Vla\u0161i\u0107",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Nilson Angulo",
+      "country": "ECU",
+      "goals": 1
+    },
+    {
+      "player": "Nuno Mendes",
+      "country": "POR",
+      "goals": 1
+    },
+    {
+      "player": "Oh Hyeon-gyu",
+      "country": "KOR",
+      "goals": 1
+    },
+    {
+      "player": "Omar Rekik",
+      "country": "TUN",
+      "goals": 1
+    },
+    {
+      "player": "Petar Musa",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Petar Su\u010di\u0107",
+      "country": "CRO",
+      "goals": 1
+    },
+    {
+      "player": "Promise David",
+      "country": "CAN",
+      "goals": 1
+    },
+    {
+      "player": "Rafael Le\u00e3o",
+      "country": "POR",
+      "goals": 1
+    },
+    {
+      "player": "Rafik Belghali",
+      "country": "ALG",
+      "goals": 1
+    },
+    {
+      "player": "Romano Schmid",
+      "country": "AUT",
+      "goals": 1
+    },
+    {
+      "player": "Sa\u0161a Kalajd\u017ei\u0107",
+      "country": "AUT",
+      "goals": 1
+    },
+    {
+      "player": "Sebastian Berhalter",
+      "country": "USA",
+      "goals": 1
+    },
+    {
+      "player": "Sidny Lopes Cabral",
+      "country": "CPV",
+      "goals": 1
+    },
+    {
+      "player": "Stephen Eust\u00e1quio",
+      "country": "CAN",
+      "goals": 1
+    },
+    {
+      "player": "Teboho Mokoena",
+      "country": "RSA",
+      "goals": 1
+    },
+    {
+      "player": "Thapelo Maseko",
+      "country": "RSA",
+      "goals": 1
+    },
+    {
+      "player": "Thelo Aasgaard",
+      "country": "NOR",
+      "goals": 1
+    },
+    {
+      "player": "Tr\u00e9z\u00e9guet",
+      "country": "EGY",
+      "goals": 1
+    },
+    {
+      "player": "Viktor Gy\u00f6keres",
+      "country": "SWE",
+      "goals": 1
+    },
+    {
+      "player": "Virgil van Dijk",
+      "country": "NED",
+      "goals": 1
+    },
+    {
+      "player": "Wilson Isidor",
+      "country": "HAI",
+      "goals": 1
+    },
+    {
+      "player": "Yasser Ibrahim",
+      "country": "EGY",
+      "goals": 1
+    },
+    {
+      "player": "\u00c1lex Baena",
+      "country": "ESP",
+      "goals": 1
+    },
+    {
+      "player": "\u00c1lvaro Fidalgo",
+      "country": "MEX",
+      "goals": 1
+    }
+  ],
+  "own_goals": [
+    {
+      "player": "Dami\u00e1n Bobadilla",
+      "country": "PAR",
+      "own_goals": 1,
+      "opponent": "United States"
+    },
+    {
+      "player": "Miro Muheim",
+      "country": "SUI",
+      "own_goals": 1,
+      "opponent": "Qatar"
+    },
+    {
+      "player": "Mohamed Hany",
+      "country": "EGY",
+      "own_goals": 2,
+      "opponent": "Belgium and Australia"
+    },
+    {
+      "player": "Aymen Hussein",
+      "country": "IRQ",
+      "own_goals": 1,
+      "opponent": "Norway"
+    },
+    {
+      "player": "Yazan Al-Arab",
+      "country": "JOR",
+      "own_goals": 1,
+      "opponent": "Austria"
+    },
+    {
+      "player": "Mohamed Manai",
+      "country": "QAT",
+      "own_goals": 1,
+      "opponent": "Canada"
+    },
+    {
+      "player": "Cameron Burgess",
+      "country": "AUS",
+      "own_goals": 1,
+      "opponent": "United States"
+    },
+    {
+      "player": "Hassan Al-Tambakti",
+      "country": "KSA",
+      "own_goals": 1,
+      "opponent": "Spain"
+    },
+    {
+      "player": "Abduvohid Nematov",
+      "country": "UZB",
+      "own_goals": 1,
+      "opponent": "Portugal"
+    },
+    {
+      "player": "Mahmud Abunada",
+      "country": "QAT",
+      "own_goals": 1,
+      "opponent": "Bosnia and Herzegovina"
+    },
+    {
+      "player": "Yassine Bounou",
+      "country": "MAR",
+      "own_goals": 1,
+      "opponent": "Haiti"
+    },
+    {
+      "player": "Ellyes Skhiri",
+      "country": "TUN",
+      "own_goals": 1,
+      "opponent": "Netherlands"
+    },
+    {
+      "player": "Diney",
+      "country": "CPV",
+      "own_goals": 1,
+      "opponent": "Argentina"
+    }
+  ],
+  "country_goals": {
+    "ALG": {
+      "total": 5,
+      "players": [
+        {
+          "name": "Rafik Belghali",
+          "goals": 1
+        },
+        {
+          "name": "Nadhir Benbouali",
+          "goals": 1
+        },
+        {
+          "name": "Amine Gouiri",
+          "goals": 1
+        },
+        {
+          "name": "Riyad Mahrez",
+          "goals": 2
+        }
+      ]
+    },
+    "ARG": {
+      "total": 18,
+      "players": [
+        {
+          "name": "Juli\u00e1n Alvarez",
+          "goals": 1
+        },
+        {
+          "name": "Enzo Fern\u00e1ndez",
+          "goals": 2
+        },
+        {
+          "name": "Giovani Lo Celso",
+          "goals": 1
+        },
+        {
+          "name": "Alexis Mac Allister",
+          "goals": 1
+        },
+        {
+          "name": "Lautaro Mart\u00ednez",
+          "goals": 3
+        },
+        {
+          "name": "Lisandro Mart\u00ednez",
+          "goals": 1
+        },
+        {
+          "name": "Lionel Messi",
+          "goals": 8
+        },
+        {
+          "name": "Cristian Romero",
+          "goals": 1
+        }
+      ]
+    },
+    "AUS": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Nestory Irankunda",
+          "goals": 1
+        },
+        {
+          "name": "Connor Metcalfe",
+          "goals": 1
+        }
+      ]
+    },
+    "AUT": {
+      "total": 5,
+      "players": [
+        {
+          "name": "Marko Arnautovi\u0107",
+          "goals": 2
+        },
+        {
+          "name": "Sa\u0161a Kalajd\u017ei\u0107",
+          "goals": 1
+        },
+        {
+          "name": "Marcel Sabitzer",
+          "goals": 1
+        },
+        {
+          "name": "Romano Schmid",
+          "goals": 1
+        }
+      ]
+    },
+    "BEL": {
+      "total": 13,
+      "players": [
+        {
+          "name": "Kevin De Bruyne",
+          "goals": 1
+        },
+        {
+          "name": "Charles De Ketelaere",
+          "goals": 3
+        },
+        {
+          "name": "Romelu Lukaku",
+          "goals": 3
+        },
+        {
+          "name": "Alexis Saelemaekers",
+          "goals": 1
+        },
+        {
+          "name": "Youri Tielemans",
+          "goals": 2
+        },
+        {
+          "name": "Leandro Trossard",
+          "goals": 2
+        },
+        {
+          "name": "Hans Vanaken",
+          "goals": 1
+        }
+      ]
+    },
+    "BIH": {
+      "total": 4,
+      "players": [
+        {
+          "name": "Kerim Alajbegovi\u0107",
+          "goals": 1
+        },
+        {
+          "name": "Jovo Luki\u0107",
+          "goals": 1
+        },
+        {
+          "name": "Ermin Mahmi\u0107",
+          "goals": 2
+        }
+      ]
+    },
+    "BRA": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Casemiro",
+          "goals": 1
+        },
+        {
+          "name": "Matheus Cunha",
+          "goals": 3
+        },
+        {
+          "name": "Gabriel Martinelli",
+          "goals": 1
+        },
+        {
+          "name": "Neymar",
+          "goals": 1
+        },
+        {
+          "name": "Vin\u00edcius J\u00fanior",
+          "goals": 4
+        }
+      ]
+    },
+    "CAN": {
+      "total": 8,
+      "players": [
+        {
+          "name": "Jonathan David",
+          "goals": 3
+        },
+        {
+          "name": "Promise David",
+          "goals": 1
+        },
+        {
+          "name": "Stephen Eust\u00e1quio",
+          "goals": 1
+        },
+        {
+          "name": "Cyle Larin",
+          "goals": 2
+        },
+        {
+          "name": "Nathan Saliba",
+          "goals": 1
+        }
+      ]
+    },
+    "CPV": {
+      "total": 4,
+      "players": [
+        {
+          "name": "Deroy Duarte",
+          "goals": 1
+        },
+        {
+          "name": "Sidny Lopes Cabral",
+          "goals": 1
+        },
+        {
+          "name": "Kevin Pina",
+          "goals": 1
+        },
+        {
+          "name": "H\u00e9lio Varela",
+          "goals": 1
+        }
+      ]
+    },
+    "COL": {
+      "total": 5,
+      "players": [
+        {
+          "name": "Jhon Arias",
+          "goals": 1
+        },
+        {
+          "name": "Jaminton Campaz",
+          "goals": 1
+        },
+        {
+          "name": "Luis D\u00edaz",
+          "goals": 1
+        },
+        {
+          "name": "Daniel Mu\u00f1oz",
+          "goals": 2
+        }
+      ]
+    },
+    "CRO": {
+      "total": 6,
+      "players": [
+        {
+          "name": "Martin Baturina",
+          "goals": 1
+        },
+        {
+          "name": "Ante Budimir",
+          "goals": 1
+        },
+        {
+          "name": "Petar Musa",
+          "goals": 1
+        },
+        {
+          "name": "Ivan Peri\u0161i\u0107",
+          "goals": 1
+        },
+        {
+          "name": "Petar Su\u010di\u0107",
+          "goals": 1
+        },
+        {
+          "name": "Nikola Vla\u0161i\u0107",
+          "goals": 1
+        }
+      ]
+    },
+    "CUW": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Livano Comenencia",
+          "goals": 1
+        }
+      ]
+    },
+    "CZE": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Ladislav Krej\u010d\u00ed",
+          "goals": 1
+        },
+        {
+          "name": "Michal Sad\u00edlek",
+          "goals": 1
+        }
+      ]
+    },
+    "COD": {
+      "total": 5,
+      "players": [
+        {
+          "name": "Brian Cipenga",
+          "goals": 1
+        },
+        {
+          "name": "Fiston Mayele",
+          "goals": 1
+        },
+        {
+          "name": "Yoane Wissa",
+          "goals": 3
+        }
+      ]
+    },
+    "ECU": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Nilson Angulo",
+          "goals": 1
+        },
+        {
+          "name": "Gonzalo Plata",
+          "goals": 1
+        }
+      ]
+    },
+    "EGY": {
+      "total": 8,
+      "players": [
+        {
+          "name": "Emam Ashour",
+          "goals": 2
+        },
+        {
+          "name": "Yasser Ibrahim",
+          "goals": 1
+        },
+        {
+          "name": "Mahmoud Saber",
+          "goals": 1
+        },
+        {
+          "name": "Mohamed Salah",
+          "goals": 1
+        },
+        {
+          "name": "Tr\u00e9z\u00e9guet",
+          "goals": 1
+        },
+        {
+          "name": "Mostafa Ziko",
+          "goals": 2
+        }
+      ]
+    },
+    "ENG": {
+      "total": 14,
+      "players": [
+        {
+          "name": "Jude Bellingham",
+          "goals": 6
+        },
+        {
+          "name": "Anthony Gordon",
+          "goals": 1
+        },
+        {
+          "name": "Harry Kane",
+          "goals": 6
+        },
+        {
+          "name": "Marcus Rashford",
+          "goals": 1
+        }
+      ]
+    },
+    "FRA": {
+      "total": 16,
+      "players": [
+        {
+          "name": "Bradley Barcola",
+          "goals": 2
+        },
+        {
+          "name": "Ousmane Demb\u00e9l\u00e9",
+          "goals": 5
+        },
+        {
+          "name": "D\u00e9sir\u00e9 Dou\u00e9",
+          "goals": 1
+        },
+        {
+          "name": "Kylian Mbapp\u00e9",
+          "goals": 8
+        }
+      ]
+    },
+    "GER": {
+      "total": 11,
+      "players": [
+        {
+          "name": "Nathaniel Brown",
+          "goals": 1
+        },
+        {
+          "name": "Kai Havertz",
+          "goals": 3
+        },
+        {
+          "name": "Jamal Musiala",
+          "goals": 1
+        },
+        {
+          "name": "Felix Nmecha",
+          "goals": 1
+        },
+        {
+          "name": "Leroy San\u00e9",
+          "goals": 1
+        },
+        {
+          "name": "Nico Schlotterbeck",
+          "goals": 1
+        },
+        {
+          "name": "Deniz Undav",
+          "goals": 3
+        }
+      ]
+    },
+    "GHA": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Derrick Luckassen",
+          "goals": 1
+        },
+        {
+          "name": "Caleb Yirenkyi",
+          "goals": 1
+        }
+      ]
+    },
+    "HAI": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Wilson Isidor",
+          "goals": 1
+        }
+      ]
+    },
+    "IRN": {
+      "total": 3,
+      "players": [
+        {
+          "name": "Mohammad Mohebi",
+          "goals": 1
+        },
+        {
+          "name": "Ramin Rezaeian",
+          "goals": 2
+        }
+      ]
+    },
+    "IRQ": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Aymen Hussein",
+          "goals": 1
+        }
+      ]
+    },
+    "CIV": {
+      "total": 5,
+      "players": [
+        {
+          "name": "Amad Diallo",
+          "goals": 2
+        },
+        {
+          "name": "Franck Kessi\u00e9",
+          "goals": 1
+        },
+        {
+          "name": "Nicolas P\u00e9p\u00e9",
+          "goals": 2
+        }
+      ]
+    },
+    "JPN": {
+      "total": 8,
+      "players": [
+        {
+          "name": "Junya It\u014d",
+          "goals": 1
+        },
+        {
+          "name": "Daichi Kamada",
+          "goals": 2
+        },
+        {
+          "name": "Daizen Maeda",
+          "goals": 1
+        },
+        {
+          "name": "Keito Nakamura",
+          "goals": 1
+        },
+        {
+          "name": "Kaish\u016b Sano",
+          "goals": 1
+        },
+        {
+          "name": "Ayase Ueda",
+          "goals": 2
+        }
+      ]
+    },
+    "JOR": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Ali Olwan",
+          "goals": 1
+        }
+      ]
+    },
+    "MEX": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Mateo Ch\u00e1vez",
+          "goals": 1
+        },
+        {
+          "name": "\u00c1lvaro Fidalgo",
+          "goals": 1
+        },
+        {
+          "name": "Ra\u00fal Jim\u00e9nez",
+          "goals": 3
+        },
+        {
+          "name": "Juli\u00e1n Qui\u00f1ones",
+          "goals": 4
+        },
+        {
+          "name": "Luis Romo",
+          "goals": 1
+        }
+      ]
+    },
+    "MAR": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Issa Diop",
+          "goals": 1
+        },
+        {
+          "name": "Achraf Hakimi",
+          "goals": 1
+        },
+        {
+          "name": "Azzedine Ounahi",
+          "goals": 2
+        },
+        {
+          "name": "Soufiane Rahimi",
+          "goals": 2
+        },
+        {
+          "name": "Ismael Saibari",
+          "goals": 3
+        },
+        {
+          "name": "Gessime Yassine",
+          "goals": 1
+        }
+      ]
+    },
+    "NED": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Brian Brobbey",
+          "goals": 3
+        },
+        {
+          "name": "Virgil van Dijk",
+          "goals": 1
+        },
+        {
+          "name": "Cody Gakpo",
+          "goals": 3
+        },
+        {
+          "name": "Jan Paul van Hecke",
+          "goals": 1
+        },
+        {
+          "name": "Crysencio Summerville",
+          "goals": 2
+        }
+      ]
+    },
+    "NZL": {
+      "total": 4,
+      "players": [
+        {
+          "name": "Elijah Just",
+          "goals": 3
+        },
+        {
+          "name": "Finn Surman",
+          "goals": 1
+        }
+      ]
+    },
+    "NOR": {
+      "total": 12,
+      "players": [
+        {
+          "name": "Thelo Aasgaard",
+          "goals": 1
+        },
+        {
+          "name": "Erling Haaland",
+          "goals": 7
+        },
+        {
+          "name": "Antonio Nusa",
+          "goals": 1
+        },
+        {
+          "name": "Leo \u00d8stig\u00e5rd",
+          "goals": 1
+        },
+        {
+          "name": "Marcus Holmgren Pedersen",
+          "goals": 1
+        },
+        {
+          "name": "Andreas Schjelderup",
+          "goals": 1
+        }
+      ]
+    },
+    "PAR": {
+      "total": 3,
+      "players": [
+        {
+          "name": "Julio Enciso",
+          "goals": 1
+        },
+        {
+          "name": "Mat\u00edas Galarza",
+          "goals": 1
+        },
+        {
+          "name": "Maur\u00edcio",
+          "goals": 1
+        }
+      ]
+    },
+    "POR": {
+      "total": 7,
+      "players": [
+        {
+          "name": "Rafael Le\u00e3o",
+          "goals": 1
+        },
+        {
+          "name": "Nuno Mendes",
+          "goals": 1
+        },
+        {
+          "name": "Jo\u00e3o Neves",
+          "goals": 1
+        },
+        {
+          "name": "Gon\u00e7alo Ramos",
+          "goals": 1
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "goals": 3
+        }
+      ]
+    },
+    "QAT": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Hassan Al-Haydos",
+          "goals": 1
+        }
+      ]
+    },
+    "KSA": {
+      "total": 1,
+      "players": [
+        {
+          "name": "Abdulelah Al-Amri",
+          "goals": 1
+        }
+      ]
+    },
+    "SCO": {
+      "total": 1,
+      "players": [
+        {
+          "name": "John McGinn",
+          "goals": 1
+        }
+      ]
+    },
+    "SEN": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Habib Diarra",
+          "goals": 2
+        },
+        {
+          "name": "Pape Gueye",
+          "goals": 2
+        },
+        {
+          "name": "Ibrahim Mbaye",
+          "goals": 1
+        },
+        {
+          "name": "Iliman Ndiaye",
+          "goals": 1
+        },
+        {
+          "name": "Isma\u00efla Sarr",
+          "goals": 4
+        }
+      ]
+    },
+    "RSA": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Thapelo Maseko",
+          "goals": 1
+        },
+        {
+          "name": "Teboho Mokoena",
+          "goals": 1
+        }
+      ]
+    },
+    "KOR": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Hwang In-beom",
+          "goals": 1
+        },
+        {
+          "name": "Oh Hyeon-gyu",
+          "goals": 1
+        }
+      ]
+    },
+    "ESP": {
+      "total": 12,
+      "players": [
+        {
+          "name": "\u00c1lex Baena",
+          "goals": 1
+        },
+        {
+          "name": "Fabi\u00e1n Ruiz",
+          "goals": 1
+        },
+        {
+          "name": "Mikel Merino",
+          "goals": 2
+        },
+        {
+          "name": "Mikel Oyarzabal",
+          "goals": 5
+        },
+        {
+          "name": "Pedro Porro",
+          "goals": 2
+        },
+        {
+          "name": "Lamine Yamal",
+          "goals": 1
+        }
+      ]
+    },
+    "SWE": {
+      "total": 7,
+      "players": [
+        {
+          "name": "Yasin Ayari",
+          "goals": 2
+        },
+        {
+          "name": "Anthony Elanga",
+          "goals": 2
+        },
+        {
+          "name": "Viktor Gy\u00f6keres",
+          "goals": 1
+        },
+        {
+          "name": "Alexander Isak",
+          "goals": 1
+        },
+        {
+          "name": "Mattias Svanberg",
+          "goals": 1
+        }
+      ]
+    },
+    "SUI": {
+      "total": 10,
+      "players": [
+        {
+          "name": "Breel Embolo",
+          "goals": 2
+        },
+        {
+          "name": "Johan Manzambi",
+          "goals": 3
+        },
+        {
+          "name": "Dan Ndoye",
+          "goals": 2
+        },
+        {
+          "name": "Rub\u00e9n Vargas",
+          "goals": 2
+        },
+        {
+          "name": "Granit Xhaka",
+          "goals": 1
+        }
+      ]
+    },
+    "TUN": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Hazem Mastouri",
+          "goals": 1
+        },
+        {
+          "name": "Omar Rekik",
+          "goals": 1
+        }
+      ]
+    },
+    "TUR": {
+      "total": 3,
+      "players": [
+        {
+          "name": "Kaan Ayhan",
+          "goals": 1
+        },
+        {
+          "name": "Arda G\u00fcler",
+          "goals": 1
+        },
+        {
+          "name": "Bar\u0131\u015f Alper Y\u0131lmaz",
+          "goals": 1
+        }
+      ]
+    },
+    "USA": {
+      "total": 9,
+      "players": [
+        {
+          "name": "Folarin Balogun",
+          "goals": 3
+        },
+        {
+          "name": "Sebastian Berhalter",
+          "goals": 1
+        },
+        {
+          "name": "Alex Freeman",
+          "goals": 1
+        },
+        {
+          "name": "Giovanni Reyna",
+          "goals": 1
+        },
+        {
+          "name": "Malik Tillman",
+          "goals": 2
+        },
+        {
+          "name": "Auston Trusty",
+          "goals": 1
+        }
+      ]
+    },
+    "URU": {
+      "total": 3,
+      "players": [
+        {
+          "name": "Maximiliano Ara\u00fajo",
+          "goals": 2
+        },
+        {
+          "name": "Agust\u00edn Canobbio",
+          "goals": 1
+        }
+      ]
+    },
+    "UZB": {
+      "total": 2,
+      "players": [
+        {
+          "name": "Abbosbek Fayzullaev",
+          "goals": 1
+        },
+        {
+          "name": "Eldor Shomurodov",
+          "goals": 1
+        }
+      ]
+    }
+  },
+  "total_goals": 281,
+  "total_own_goals": 14
+}

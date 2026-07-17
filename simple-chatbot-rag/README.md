@@ -1,12 +1,13 @@
 # Simple Chatbot with RAG — Install & Configuration Guide
 
-> **Simple Chatbot with RAG** using `ollama`, `open-webui`, and `open-webui-mcpo`.
-> A CPU‑inference blueprint suitable for PoCs and quick explorations. Retrieval‑augmented
-> generation uses the **ChromaDB** vector store embedded in open‑webui.
+Simple Chatbot with RAG** using `ollama`, `open-webui`, and `open-webui-mcpo`.
 
-This blueprint is a showcase of how quickly a complete, private RAG chatbot — model serving,
-chat UI, document retrieval, and MCP tool calling — can be stood up with **SUSE AI Factory**.
-You deploy the blueprint, then adjust a handful of values for your environment.
+This blueprint powers **two independent demos** — run either on its own. 
+
+Demo 1 -  Open Web-ui Interface talking directly to a RAG Database. This demo allows you to upload documents to the Systems, then ask the AI questions about the information in that document.
+
+
+Demo 2 - Leverage an Open Web-ui add on Memory tool (MCPO) and ask it to remeber a fact (I.E. When)
 
 > **In a hurry?** [QUICKSTART.md](./QUICKSTART.md) is the condensed, K8s‑expert version — the same value
 > changes and gotchas, no walkthrough.

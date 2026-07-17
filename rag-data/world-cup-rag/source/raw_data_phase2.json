@@ -1,0 +1,117 @@
+{
+  "venues": [
+    {
+      "venue_name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "matches_hosted": "5 (3 group, 2 knockout)",
+      "capacity": 80824
+    },
+    {
+      "venue_name": "MetLife Stadium",
+      "city": "New York/New Jersey(East Rutherford, New Jersey)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 2 knockout, and the final)",
+      "capacity": 80663
+    },
+    {
+      "venue_name": "AT&T Stadium",
+      "city": "Dallas(Arlington, Texas)",
+      "country": "USA",
+      "matches_hosted": "9 (5 group, 4 knockout)",
+      "capacity": 70649
+    },
+    {
+      "venue_name": "SoFi Stadium",
+      "city": "Los Angeles(Inglewood, California)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 70492
+    },
+    {
+      "venue_name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 69045
+    },
+    {
+      "venue_name": "Levi's Stadium",
+      "city": "San Francisco Bay Area(Santa Clara, California)",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68827
+    },
+    {
+      "venue_name": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 68777
+    },
+    {
+      "venue_name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68324
+    },
+    {
+      "venue_name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 68239
+    },
+    {
+      "venue_name": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 66925
+    },
+    {
+      "venue_name": "Hard Rock Stadium",
+      "city": "Miami(Miami Gardens, Florida)",
+      "country": "USA",
+      "matches_hosted": "7 (4 group, 2 knockout, and third-place)",
+      "capacity": 64478
+    },
+    {
+      "venue_name": "Gillette Stadium",
+      "city": "Boston(Foxborough, Massachusetts)",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 64146
+    },
+    {
+      "venue_name": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 52497
+    },
+    {
+      "venue_name": "Estadio BBVA",
+      "city": "Monterrey(Guadalupe, Nuevo Le\u00f3n)",
+      "country": "USA",
+      "matches_hosted": "4 (3 group, 1 knockout)",
+      "capacity": 51243
+    },
+    {
+      "venue_name": "Estadio Akron",
+      "city": "Guadalajara(Zapopan, Jalisco)",
+      "country": "USA",
+      "matches_hosted": "4 (4 group)",
+      "capacity": 45664
+    },
+    {
+      "venue_name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 43036
+    }
+  ],
+  "player_stats": {}
+}

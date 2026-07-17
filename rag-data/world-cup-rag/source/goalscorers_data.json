@@ -1,0 +1,75 @@
+{
+  "tournament_info": {
+    "name": "2026 FIFA World Cup",
+    "hosts": [
+      "Canada",
+      "Mexico",
+      "United States"
+    ],
+    "dates": "June 11 \u2013 July 19, 2026",
+    "teams": 48,
+    "groups": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H",
+      "I",
+      "J",
+      "K",
+      "L"
+    ],
+    "total_matches": 104,
+    "matches_played": 102,
+    "total_goals": 297,
+    "data_updated": "2026-07-15",
+    "active_countries": [
+      "ARG",
+      "ENG",
+      "FRA",
+      "ESP"
+    ]
+  },
+  "top_scorers": [
+    {
+      "player": "Musa Al-Taamari]",
+      "country": "JOR",
+      "goals": 1,
+      "team_name": "Jordan"
+    },
+    {
+      "player": "Nizar Al-Rashdan]",
+      "country": "JOR",
+      "goals": 1,
+      "team_name": "Jordan"
+    }
+  ],
+  "top_scorers_full": [
+    {
+      "player": "Musa Al-Taamari]",
+      "country": "JOR",
+      "goals": 1,
+      "team_name": "Jordan"
+    },
+    {
+      "player": "Nizar Al-Rashdan]",
+      "country": "JOR",
+      "goals": 1,
+      "team_name": "Jordan"
+    }
+  ],
+  "own_goals": [],
+  "goals_by_country": {
+    "JOR": {
+      "team": "Jordan",
+      "total_goals": 2,
+      "players": [
+        "Musa Al-Taamari]",
+        "Nizar Al-Rashdan]"
+      ]
+    }
+  }
+}

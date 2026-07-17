@@ -1,0 +1,3753 @@
+{
+  "tournament_metadata": {
+    "name": "2026 FIFA World Cup",
+    "also_known_as": "FIFA World Cup 26",
+    "hosts": [
+      "Canada",
+      "Mexico",
+      "United States"
+    ],
+    "dates": "June 11 \u2013 July 19, 2026",
+    "teams": 48,
+    "confederations": 6,
+    "venues": 16,
+    "cities": 16,
+    "total_matches": 104,
+    "matches_played": 102,
+    "total_goals": 283,
+    "champion": "Pending",
+    "runner_up": "Pending",
+    "third_place": "Pending",
+    "fourth_place": "Pending",
+    "top_scorer": "Lionel Messi & Kylian Mbapp\u00e9",
+    "top_scorer_goals": 8,
+    "previous_champion": "Argentina (2022)",
+    "format": {
+      "groups": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L"
+      ],
+      "teams_per_group": 4,
+      "total_groups": 12,
+      "knockout_format": "Top 2 from each group (24) + 8 best third-placed teams = 32",
+      "knockout_rounds": [
+        "Round of 32",
+        "Round of 16",
+        "Quarterfinals",
+        "Semifinals",
+        "Third-place match",
+        "Final"
+      ]
+    }
+  },
+  "group_standings": {
+    "A": [
+      [
+        "Mexico",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 6,
+          "goals_against": 0,
+          "goal_difference": 6,
+          "points": 9
+        }
+      ],
+      [
+        "South Africa",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_difference": -1,
+          "points": 4
+        }
+      ],
+      [
+        "South Korea",
+        {
+          "position": "3",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 2,
+          "goals_against": 3,
+          "goal_difference": -1,
+          "points": 3
+        }
+      ],
+      [
+        "Czech Republic",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 1,
+          "lost": 2,
+          "goals_for": 2,
+          "goals_against": 6,
+          "goal_difference": -4,
+          "points": 1
+        }
+      ]
+    ],
+    "B": [
+      [
+        "United States",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 8,
+          "goals_against": 4,
+          "goal_difference": 4,
+          "points": 6
+        }
+      ],
+      [
+        "Australia",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_difference": 0,
+          "points": 0
+        }
+      ],
+      [
+        "Turkey",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 3,
+          "goals_against": 5,
+          "goal_difference": -2,
+          "points": 3
+        }
+      ]
+    ],
+    "C": [
+      [
+        "Netherlands",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 10,
+          "goals_against": 4,
+          "goal_difference": 6,
+          "points": 7
+        }
+      ],
+      [
+        "Japan",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 7,
+          "goals_against": 3,
+          "goal_difference": 4,
+          "points": 5
+        }
+      ],
+      [
+        "Sweden",
+        {
+          "position": "3",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 7,
+          "goals_against": 7,
+          "goal_difference": 0,
+          "points": 0
+        }
+      ],
+      [
+        "Tunisia",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 2,
+          "goals_against": 12,
+          "goal_difference": -10,
+          "points": 0
+        }
+      ]
+    ],
+    "D": [
+      [
+        "France",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 10,
+          "goals_against": 2,
+          "goal_difference": 8,
+          "points": 9
+        }
+      ],
+      [
+        "Norway",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 8,
+          "goals_against": 7,
+          "goal_difference": 1,
+          "points": 6
+        }
+      ],
+      [
+        "Senegal",
+        {
+          "position": "3",
+          "played": 3,
+          "won": 1,
+          "drawn": 0,
+          "lost": 2,
+          "goals_for": 8,
+          "goals_against": 6,
+          "goal_difference": 2,
+          "points": 3
+        }
+      ],
+      [
+        "Iraq",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 1,
+          "goals_against": 12,
+          "goal_difference": -11,
+          "points": 0
+        }
+      ]
+    ],
+    "E": [
+      [
+        "Argentina",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 3,
+          "drawn": 0,
+          "lost": 0,
+          "goals_for": 8,
+          "goals_against": 1,
+          "goal_difference": 7,
+          "points": 9
+        }
+      ],
+      [
+        "Austria",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 6,
+          "goals_against": 6,
+          "goal_difference": 0,
+          "points": 0
+        }
+      ],
+      [
+        "Jordan",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 3,
+          "goals_against": 8,
+          "goal_difference": -5,
+          "points": 0
+        }
+      ]
+    ],
+    "F": [
+      [
+        "Colombia",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 4,
+          "goals_against": 1,
+          "goal_difference": 3,
+          "points": 7
+        }
+      ],
+      [
+        "Portugal",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 1,
+          "drawn": 2,
+          "lost": 0,
+          "goals_for": 6,
+          "goals_against": 1,
+          "goal_difference": 5,
+          "points": 5
+        }
+      ],
+      [
+        "DR Congo",
+        {
+          "position": "3",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 4,
+          "goals_against": 3,
+          "goal_difference": 1,
+          "points": 4
+        }
+      ],
+      [
+        "Uzbekistan",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 2,
+          "goals_against": 11,
+          "goal_difference": -9,
+          "points": 0
+        }
+      ]
+    ],
+    "G": [
+      [
+        "England",
+        {
+          "position": "1",
+          "played": 3,
+          "won": 2,
+          "drawn": 1,
+          "lost": 0,
+          "goals_for": 6,
+          "goals_against": 2,
+          "goal_difference": 4,
+          "points": 7
+        }
+      ],
+      [
+        "Croatia",
+        {
+          "position": "2",
+          "played": 3,
+          "won": 2,
+          "drawn": 0,
+          "lost": 1,
+          "goals_for": 5,
+          "goals_against": 5,
+          "goal_difference": 0,
+          "points": 0
+        }
+      ],
+      [
+        "Ghana",
+        {
+          "position": "3",
+          "played": 3,
+          "won": 1,
+          "drawn": 1,
+          "lost": 1,
+          "goals_for": 2,
+          "goals_against": 2,
+          "goal_difference": 0,
+          "points": 0
+        }
+      ],
+      [
+        "Panama",
+        {
+          "position": "4",
+          "played": 3,
+          "won": 0,
+          "drawn": 0,
+          "lost": 3,
+          "goals_for": 0,
+          "goals_against": 4,
+          "goal_difference": -4,
+          "points": 0
+        }
+      ]
+    ]
+  },
+  "team_stats": [
+    {
+      "team": "Mexico",
+      "group": "A",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 6,
+      "goals_against": 0,
+      "goal_difference": 6,
+      "points": 9,
+      "top_scorers": [
+        {
+          "player": "Juli\u00e1n Qui\u00f1ones",
+          "goals": 4
+        },
+        {
+          "player": "Ra\u00fal Jim\u00e9nez",
+          "goals": 3
+        },
+        {
+          "player": "Luis Romo",
+          "goals": 1
+        },
+        {
+          "player": "Mateo Ch\u00e1vez",
+          "goals": 1
+        },
+        {
+          "player": "\u00c1lvaro Fidalgo",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "South Africa",
+      "group": "A",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 3,
+      "goal_difference": -1,
+      "points": 4,
+      "top_scorers": [
+        {
+          "player": "Teboho Mokoena (soccer, born 1997)|Teboho Mokoena",
+          "goals": 1
+        },
+        {
+          "player": "Thapelo Maseko",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "South Korea",
+      "group": "A",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 2,
+      "goals_against": 3,
+      "goal_difference": -1,
+      "points": 3,
+      "top_scorers": [
+        {
+          "player": "Hwang In-beom",
+          "goals": 1
+        },
+        {
+          "player": "Oh Hyeon-gyu",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Czech Republic",
+      "group": "A",
+      "played": 3,
+      "won": 0,
+      "drawn": 1,
+      "lost": 2,
+      "goals_for": 2,
+      "goals_against": 6,
+      "goal_difference": -4,
+      "points": 1,
+      "top_scorers": [
+        {
+          "player": "Ladislav Krej\u010d\u00ed (footballer, born 1999)|Ladislav Krej\u010d\u00ed",
+          "goals": 1
+        },
+        {
+          "player": "Michal Sad\u00edlek",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "United States",
+      "group": "B",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 8,
+      "goals_against": 4,
+      "goal_difference": 4,
+      "points": 6,
+      "top_scorers": [
+        {
+          "player": "Folarin Balogun",
+          "goals": 3
+        },
+        {
+          "player": "Malik Tillman",
+          "goals": 2
+        },
+        {
+          "player": "Alex Freeman",
+          "goals": 1
+        },
+        {
+          "player": "Auston Trusty",
+          "goals": 1
+        },
+        {
+          "player": "Giovanni Reyna",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Australia",
+      "group": "B",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Connor Metcalfe",
+          "goals": 1
+        },
+        {
+          "player": "Nestory Irankunda",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Turkey",
+      "group": "B",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 3,
+      "goals_against": 5,
+      "goal_difference": -2,
+      "points": 3,
+      "top_scorers": [
+        {
+          "player": "Arda G\u00fcler",
+          "goals": 1
+        },
+        {
+          "player": "Bar\u0131\u015f Alper Y\u0131lmaz",
+          "goals": 1
+        },
+        {
+          "player": "Kaan Ayhan",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "group": "C",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 10,
+      "goals_against": 4,
+      "goal_difference": 6,
+      "points": 7,
+      "top_scorers": [
+        {
+          "player": "Brian Brobbey",
+          "goals": 3
+        },
+        {
+          "player": "Cody Gakpo",
+          "goals": 3
+        },
+        {
+          "player": "Crysencio Summerville",
+          "goals": 2
+        },
+        {
+          "player": "Jan Paul van Hecke",
+          "goals": 1
+        },
+        {
+          "player": "Virgil van Dijk",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Japan",
+      "group": "C",
+      "played": 3,
+      "won": 1,
+      "drawn": 2,
+      "lost": 0,
+      "goals_for": 7,
+      "goals_against": 3,
+      "goal_difference": 4,
+      "points": 5,
+      "top_scorers": [
+        {
+          "player": "Ayase Ueda",
+          "goals": 2
+        },
+        {
+          "player": "Daichi Kamada",
+          "goals": 2
+        },
+        {
+          "player": "Daizen Maeda",
+          "goals": 1
+        },
+        {
+          "player": "Junya It\u014d",
+          "goals": 1
+        },
+        {
+          "player": "Kaish\u016b Sano",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Sweden",
+      "group": "C",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 7,
+      "goals_against": 7,
+      "goal_difference": 0,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Anthony Elanga",
+          "goals": 2
+        },
+        {
+          "player": "Yasin Ayari",
+          "goals": 2
+        },
+        {
+          "player": "Alexander Isak",
+          "goals": 1
+        },
+        {
+          "player": "Mattias Svanberg",
+          "goals": 1
+        },
+        {
+          "player": "Viktor Gy\u00f6keres",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Tunisia",
+      "group": "C",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goals_for": 2,
+      "goals_against": 12,
+      "goal_difference": -10,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Hazem Mastouri",
+          "goals": 1
+        },
+        {
+          "player": "Omar Rekik",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "France",
+      "group": "D",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 10,
+      "goals_against": 2,
+      "goal_difference": 8,
+      "points": 9,
+      "top_scorers": [
+        {
+          "player": "Kylian Mbapp\u00e9",
+          "goals": 8
+        },
+        {
+          "player": "Ousmane Demb\u00e9l\u00e9",
+          "goals": 5
+        },
+        {
+          "player": "Bradley Barcola",
+          "goals": 2
+        },
+        {
+          "player": "D\u00e9sir\u00e9 Dou\u00e9",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Norway",
+      "group": "D",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 8,
+      "goals_against": 7,
+      "goal_difference": 1,
+      "points": 6,
+      "top_scorers": [
+        {
+          "player": "Erling Haaland",
+          "goals": 7
+        },
+        {
+          "player": "Andreas Schjelderup",
+          "goals": 1
+        },
+        {
+          "player": "Antonio Nusa",
+          "goals": 1
+        },
+        {
+          "player": "Leo \u00d8stig\u00e5rd",
+          "goals": 1
+        },
+        {
+          "player": "Marcus Holmgren Pedersen",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Senegal",
+      "group": "D",
+      "played": 3,
+      "won": 1,
+      "drawn": 0,
+      "lost": 2,
+      "goals_for": 8,
+      "goals_against": 6,
+      "goal_difference": 2,
+      "points": 3,
+      "top_scorers": [
+        {
+          "player": "Isma\u00efla Sarr",
+          "goals": 4
+        },
+        {
+          "player": "Habib Diarra",
+          "goals": 2
+        },
+        {
+          "player": "Pape Gueye",
+          "goals": 2
+        },
+        {
+          "player": "Ibrahim Mbaye",
+          "goals": 1
+        },
+        {
+          "player": "Iliman Ndiaye",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Iraq",
+      "group": "D",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goals_for": 1,
+      "goals_against": 12,
+      "goal_difference": -11,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Aymen Hussein",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Argentina",
+      "group": "E",
+      "played": 3,
+      "won": 3,
+      "drawn": 0,
+      "lost": 0,
+      "goals_for": 8,
+      "goals_against": 1,
+      "goal_difference": 7,
+      "points": 9,
+      "top_scorers": [
+        {
+          "player": "Lionel Messi",
+          "goals": 8
+        },
+        {
+          "player": "Lautaro Mart\u00ednez",
+          "goals": 3
+        },
+        {
+          "player": "Enzo Fern\u00e1ndez",
+          "goals": 2
+        },
+        {
+          "player": "Alexis Mac Allister",
+          "goals": 1
+        },
+        {
+          "player": "Cristian Romero",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Austria",
+      "group": "E",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 6,
+      "goals_against": 6,
+      "goal_difference": 0,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Marko Arnautovi\u0107",
+          "goals": 2
+        },
+        {
+          "player": "Marcel Sabitzer",
+          "goals": 1
+        },
+        {
+          "player": "Romano Schmid",
+          "goals": 1
+        },
+        {
+          "player": "Sa\u0161a Kalajd\u017ei\u0107",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Jordan",
+      "group": "E",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goals_for": 3,
+      "goals_against": 8,
+      "goal_difference": -5,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Ali Olwan",
+          "goals": 1
+        },
+        {
+          "player": "Musa Al-Taamari]",
+          "goals": 1
+        },
+        {
+          "player": "Nizar Al-Rashdan]",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Colombia",
+      "group": "F",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 4,
+      "goals_against": 1,
+      "goal_difference": 3,
+      "points": 7,
+      "top_scorers": [
+        {
+          "player": "Daniel Mu\u00f1oz (footballer)|Daniel Mu\u00f1oz",
+          "goals": 2
+        },
+        {
+          "player": "Jaminton Campaz",
+          "goals": 1
+        },
+        {
+          "player": "Jhon Arias (footballer)|Jhon Arias",
+          "goals": 1
+        },
+        {
+          "player": "Luis D\u00edaz (footballer, born 1997)|Luis D\u00edaz",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Portugal",
+      "group": "F",
+      "played": 3,
+      "won": 1,
+      "drawn": 2,
+      "lost": 0,
+      "goals_for": 6,
+      "goals_against": 1,
+      "goal_difference": 5,
+      "points": 5,
+      "top_scorers": [
+        {
+          "player": "Cristiano Ronaldo",
+          "goals": 3
+        },
+        {
+          "player": "Gon\u00e7alo Ramos",
+          "goals": 1
+        },
+        {
+          "player": "Jo\u00e3o Neves",
+          "goals": 1
+        },
+        {
+          "player": "Nuno Mendes (footballer, born 2002)|Nuno Mendes",
+          "goals": 1
+        },
+        {
+          "player": "Rafael Le\u00e3o",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "DR Congo",
+      "group": "F",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 4,
+      "goals_against": 3,
+      "goal_difference": 1,
+      "points": 4,
+      "top_scorers": [
+        {
+          "player": "Yoane Wissa",
+          "goals": 3
+        },
+        {
+          "player": "Brian Cipenga",
+          "goals": 1
+        },
+        {
+          "player": "Fiston Mayele",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Uzbekistan",
+      "group": "F",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goals_for": 2,
+      "goals_against": 11,
+      "goal_difference": -9,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Abbosbek Fayzullaev",
+          "goals": 1
+        },
+        {
+          "player": "Eldor Shomurodov",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "England",
+      "group": "G",
+      "played": 3,
+      "won": 2,
+      "drawn": 1,
+      "lost": 0,
+      "goals_for": 6,
+      "goals_against": 2,
+      "goal_difference": 4,
+      "points": 7,
+      "top_scorers": [
+        {
+          "player": "Harry Kane",
+          "goals": 6
+        },
+        {
+          "player": "Jude Bellingham",
+          "goals": 6
+        },
+        {
+          "player": "Anthony Gordon (footballer)|Anthony Gordon",
+          "goals": 1
+        },
+        {
+          "player": "Marcus Rashford",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Croatia",
+      "group": "G",
+      "played": 3,
+      "won": 2,
+      "drawn": 0,
+      "lost": 1,
+      "goals_for": 5,
+      "goals_against": 5,
+      "goal_difference": 0,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Ante Budimir",
+          "goals": 1
+        },
+        {
+          "player": "Ivan Peri\u0161i\u0107",
+          "goals": 1
+        },
+        {
+          "player": "Martin Baturina",
+          "goals": 1
+        },
+        {
+          "player": "Nikola Vla\u0161i\u0107",
+          "goals": 1
+        },
+        {
+          "player": "Petar Musa",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "group": "G",
+      "played": 3,
+      "won": 1,
+      "drawn": 1,
+      "lost": 1,
+      "goals_for": 2,
+      "goals_against": 2,
+      "goal_difference": 0,
+      "points": 0,
+      "top_scorers": [
+        {
+          "player": "Caleb Yirenkyi",
+          "goals": 1
+        },
+        {
+          "player": "Derrick Luckassen",
+          "goals": 1
+        }
+      ]
+    },
+    {
+      "team": "Panama",
+      "group": "G",
+      "played": 3,
+      "won": 0,
+      "drawn": 0,
+      "lost": 3,
+      "goals_for": 0,
+      "goals_against": 4,
+      "goal_difference": -4,
+      "points": 0,
+      "top_scorers": []
+    }
+  ],
+  "knockout_matches": [
+    {
+      "date": "June 28, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "South Africa",
+      "home_score": 0,
+      "away_score": 1,
+      "away_team": "Canada",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Eust\u00e1quio",
+          "minute": "",
+          "team": "Canada"
+        }
+      ],
+      "venue": "SoFi Stadium, Inglewood",
+      "attendance": 69237,
+      "referee": "Jo\u00e3o Pinheiro"
+    },
+    {
+      "date": "June 29, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Brazil",
+      "home_score": 2,
+      "away_score": 1,
+      "away_team": "Japan",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Casemiro",
+          "minute": "",
+          "team": "Brazil"
+        },
+        {
+          "player": "Martinelli",
+          "minute": "",
+          "team": "Brazil"
+        },
+        {
+          "player": "Sano",
+          "minute": "",
+          "team": "Japan"
+        }
+      ],
+      "venue": "NRG Stadium, Houston",
+      "attendance": 68777,
+      "referee": "Maurizio Mariani"
+    },
+    {
+      "date": "June 29, 2026",
+      "time": "4:30 p.m.",
+      "home_team": "Germany",
+      "home_score": 1,
+      "away_score": 0,
+      "away_team": "Paraguay",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Havertz",
+          "minute": "",
+          "team": "Germany"
+        },
+        {
+          "player": "Enciso",
+          "minute": "",
+          "team": "Paraguay"
+        }
+      ],
+      "venue": "Gillette Stadium, Foxborough",
+      "attendance": 63945,
+      "referee": "Jalal Jayed"
+    },
+    {
+      "date": "June 29, 2026",
+      "time": "7:00 p.m.",
+      "home_team": "Netherlands",
+      "home_score": 1,
+      "away_score": 0,
+      "away_team": "Morocco",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Gakpo",
+          "minute": "",
+          "team": "Netherlands"
+        },
+        {
+          "player": "Diop",
+          "minute": "",
+          "team": "Morocco"
+        }
+      ],
+      "venue": "Estadio BBVA, Guadalupe",
+      "attendance": 51243,
+      "referee": "Wilton Sampaio"
+    },
+    {
+      "date": "June 30, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Ivory Coast",
+      "home_score": 1,
+      "away_score": 2,
+      "away_team": "Norway",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Diallo",
+          "minute": "",
+          "team": "Ivory Coast"
+        },
+        {
+          "player": "Nusa",
+          "minute": "",
+          "team": "Norway"
+        },
+        {
+          "player": "Haaland",
+          "minute": "",
+          "team": "Norway"
+        }
+      ],
+      "venue": "AT&T Stadium, Arlington",
+      "attendance": 69665,
+      "referee": "Jes\u00fas Valenzuela"
+    },
+    {
+      "date": "June 30, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "France",
+      "home_score": 3,
+      "away_score": 0,
+      "away_team": "Sweden",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Mbapp\u00e9",
+          "minute": ",",
+          "team": "France"
+        },
+        {
+          "player": "Barcola",
+          "minute": "",
+          "team": "France"
+        }
+      ],
+      "venue": "MetLife Stadium, East Rutherford",
+      "attendance": 80663,
+      "referee": "Danny Makkelie"
+    },
+    {
+      "date": "June 30, 2026",
+      "time": "8:00 p.m.",
+      "home_team": "Mexico",
+      "home_score": 2,
+      "away_score": 0,
+      "away_team": "Ecuador",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Qui\u00f1ones",
+          "minute": "",
+          "team": "Mexico"
+        },
+        {
+          "player": "Jim\u00e9nez",
+          "minute": "",
+          "team": "Mexico"
+        }
+      ],
+      "venue": "Estadio Azteca, Mexico City",
+      "attendance": 80824,
+      "referee": "Slavko Vin\u010di\u0107"
+    },
+    {
+      "date": "July 1, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "England",
+      "home_score": 2,
+      "away_score": 1,
+      "away_team": "DR Congo",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Kane",
+          "minute": ",",
+          "team": "England"
+        },
+        {
+          "player": "Cipenga",
+          "minute": "",
+          "team": "DR Congo"
+        }
+      ],
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "attendance": 68239,
+      "referee": "Adham Makhadmeh"
+    },
+    {
+      "date": "July 1, 2026",
+      "time": "1:00 p.m.",
+      "home_team": "Belgium",
+      "home_score": 3,
+      "away_score": 0,
+      "away_team": "Senegal",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Lukaku",
+          "minute": "",
+          "team": "Belgium"
+        },
+        {
+          "player": "Tielemans",
+          "minute": ",",
+          "team": "Belgium"
+        },
+        {
+          "player": "Diarra",
+          "minute": "",
+          "team": "Senegal"
+        },
+        {
+          "player": "I. Sarr",
+          "minute": "",
+          "team": "Senegal"
+        }
+      ],
+      "venue": "Lumen Field, Seattle",
+      "attendance": 66925,
+      "referee": "Sa\u00edd Mart\u00ednez"
+    },
+    {
+      "date": "July 1, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "United States",
+      "home_score": 2,
+      "away_score": 0,
+      "away_team": "Bosnia and Herzegovina",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Balogun",
+          "minute": "",
+          "team": "United States"
+        },
+        {
+          "player": "Tillman",
+          "minute": "",
+          "team": "United States"
+        }
+      ],
+      "venue": "Levi's Stadium, Santa Clara",
+      "attendance": 68827,
+      "referee": "Raphael Claus"
+    },
+    {
+      "date": "July 2, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Spain",
+      "home_score": 3,
+      "away_score": 0,
+      "away_team": "Austria",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Oyarzabal",
+          "minute": ",",
+          "team": "Spain"
+        },
+        {
+          "player": "Porro",
+          "minute": "",
+          "team": "Spain"
+        }
+      ],
+      "venue": "SoFi Stadium, Inglewood",
+      "attendance": 70492,
+      "referee": "Glenn Nyberg"
+    },
+    {
+      "date": "July 2, 2026",
+      "time": "7:00 p.m.",
+      "home_team": "Portugal",
+      "home_score": 2,
+      "away_score": 1,
+      "away_team": "Croatia",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Ronaldo",
+          "minute": "",
+          "team": "Portugal"
+        },
+        {
+          "player": "Ramos",
+          "minute": "",
+          "team": "Portugal"
+        },
+        {
+          "player": "Peri\u0161i\u0107",
+          "minute": "",
+          "team": "Croatia"
+        }
+      ],
+      "venue": "BMO Field, Toronto",
+      "attendance": 43036,
+      "referee": "Espen Esk\u00e5s"
+    },
+    {
+      "date": "July 2, 2026",
+      "time": "8:00 p.m.",
+      "home_team": "Switzerland",
+      "home_score": 2,
+      "away_score": 0,
+      "away_team": "Algeria",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Embolo",
+          "minute": "",
+          "team": "Switzerland"
+        },
+        {
+          "player": "Ndoye",
+          "minute": "",
+          "team": "Switzerland"
+        }
+      ],
+      "venue": "BC Place, Vancouver",
+      "attendance": 52497,
+      "referee": "Yael Falc\u00f3n"
+    },
+    {
+      "date": "July 3, 2026",
+      "time": "1:00 p.m.",
+      "home_team": "Australia",
+      "home_score": 1,
+      "away_score": 0,
+      "away_team": "Egypt",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Hany",
+          "minute": "",
+          "team": "Australia"
+        },
+        {
+          "player": "Ashour",
+          "minute": "",
+          "team": "Egypt"
+        }
+      ],
+      "venue": "AT&T Stadium, Arlington",
+      "attendance": 70244,
+      "referee": "Gustavo Tejera"
+    },
+    {
+      "date": "July 3, 2026",
+      "time": "6:00 p.m.",
+      "home_team": "Argentina",
+      "home_score": 3,
+      "away_score": 0,
+      "away_team": "Cape Verde",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Messi",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Li. Mart\u00ednez",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Diney",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "D. Duarte",
+          "minute": "",
+          "team": "Cape Verde"
+        },
+        {
+          "player": "Lopes Cabral",
+          "minute": "",
+          "team": "Cape Verde"
+        }
+      ],
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "attendance": 64478,
+      "referee": "Drew Fischer"
+    },
+    {
+      "date": "July 3, 2026",
+      "time": "8:30 p.m.",
+      "home_team": "Colombia",
+      "home_score": 1,
+      "away_score": 0,
+      "away_team": "Ghana",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "J. Arias",
+          "minute": "",
+          "team": "Colombia"
+        }
+      ],
+      "venue": "Arrowhead Stadium, Kansas City",
+      "attendance": 69045,
+      "referee": "Cl\u00e9ment Turpin"
+    },
+    {
+      "date": "July 4, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Canada",
+      "home_score": 0,
+      "away_score": 3,
+      "away_team": "Morocco",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Ounahi",
+          "minute": ",",
+          "team": "Morocco"
+        },
+        {
+          "player": "Rahimi",
+          "minute": "",
+          "team": "Morocco"
+        }
+      ],
+      "venue": "NRG Stadium, Houston",
+      "attendance": 68777,
+      "referee": "Michael Oliver"
+    },
+    {
+      "date": "July 4, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "Paraguay",
+      "home_score": 0,
+      "away_score": 1,
+      "away_team": "France",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Mbapp\u00e9",
+          "minute": "",
+          "team": "France"
+        }
+      ],
+      "venue": "Lincoln Financial Field, Philadelphia",
+      "attendance": 68324,
+      "referee": "Ilgiz Tantashev"
+    },
+    {
+      "date": "July 5, 2026",
+      "time": "4:00 p.m.",
+      "home_team": "Brazil",
+      "home_score": 1,
+      "away_score": 2,
+      "away_team": "Norway",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Neymar",
+          "minute": "",
+          "team": "Brazil"
+        },
+        {
+          "player": "Haaland",
+          "minute": ",",
+          "team": "Norway"
+        }
+      ],
+      "venue": "MetLife Stadium, East Rutherford",
+      "attendance": 80663,
+      "referee": "Ismail Elfath"
+    },
+    {
+      "date": "July 5, 2026",
+      "time": "7:00 p.m.",
+      "home_team": "Mexico",
+      "home_score": 2,
+      "away_score": 3,
+      "away_team": "England",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Qui\u00f1ones",
+          "minute": "",
+          "team": "Mexico"
+        },
+        {
+          "player": "Jim\u00e9nez",
+          "minute": "",
+          "team": "Mexico"
+        },
+        {
+          "player": "Bellingham",
+          "minute": ",",
+          "team": "England"
+        },
+        {
+          "player": "Kane",
+          "minute": "",
+          "team": "England"
+        }
+      ],
+      "venue": "Estadio Azteca, Mexico City",
+      "attendance": 80824,
+      "referee": "Alireza Faghani"
+    },
+    {
+      "date": "July 6, 2026",
+      "time": "2:00 p.m.",
+      "home_team": "Portugal",
+      "home_score": 0,
+      "away_score": 1,
+      "away_team": "Spain",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Merino",
+          "minute": "",
+          "team": "Spain"
+        }
+      ],
+      "venue": "AT&T Stadium, Arlington",
+      "attendance": 70649,
+      "referee": "Anthony Taylor"
+    },
+    {
+      "date": "July 6, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "United States",
+      "home_score": 1,
+      "away_score": 4,
+      "away_team": "Belgium",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Tillman",
+          "minute": "",
+          "team": "United States"
+        },
+        {
+          "player": "De Ketelaere",
+          "minute": ",",
+          "team": "Belgium"
+        },
+        {
+          "player": "Vanaken",
+          "minute": "",
+          "team": "Belgium"
+        },
+        {
+          "player": "Lukaku",
+          "minute": "",
+          "team": "Belgium"
+        }
+      ],
+      "venue": "Lumen Field, Seattle",
+      "attendance": 66925,
+      "referee": "Adham Makhadmeh"
+    },
+    {
+      "date": "July 7, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Argentina",
+      "home_score": 3,
+      "away_score": 2,
+      "away_team": "Egypt",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Romero",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Messi",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Fern\u00e1ndez",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Ibrahim",
+          "minute": "",
+          "team": "Egypt"
+        },
+        {
+          "player": "Ziko",
+          "minute": "",
+          "team": "Egypt"
+        }
+      ],
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "attendance": 68239,
+      "referee": "Fran\u00e7ois Letexier"
+    },
+    {
+      "date": "July 7, 2026",
+      "time": "1:00 p.m.",
+      "home_team": "Switzerland",
+      "home_score": 0,
+      "away_score": 0,
+      "away_team": "Colombia",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [],
+      "venue": "BC Place, Vancouver",
+      "attendance": 52497,
+      "referee": "Iv\u00e1n Barton"
+    },
+    {
+      "date": "July 9, 2026",
+      "time": "4:00 p.m.",
+      "home_team": "France",
+      "home_score": 2,
+      "away_score": 0,
+      "away_team": "Morocco",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Mbapp\u00e9",
+          "minute": "",
+          "team": "France"
+        },
+        {
+          "player": "Demb\u00e9l\u00e9",
+          "minute": "",
+          "team": "France"
+        }
+      ],
+      "venue": "Gillette Stadium, Foxborough",
+      "attendance": 63811,
+      "referee": "Facundo Tello"
+    },
+    {
+      "date": "July 10, 2026",
+      "time": "12:00 p.m.",
+      "home_team": "Spain",
+      "home_score": 2,
+      "away_score": 1,
+      "away_team": "Belgium",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Fabi\u00e1n",
+          "minute": "",
+          "team": "Spain"
+        },
+        {
+          "player": "Merino",
+          "minute": "",
+          "team": "Spain"
+        },
+        {
+          "player": "De Ketelaere",
+          "minute": "",
+          "team": "Belgium"
+        }
+      ],
+      "venue": "SoFi Stadium, Inglewood",
+      "attendance": 70492,
+      "referee": "Michael Oliver"
+    },
+    {
+      "date": "July 11, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "Norway",
+      "home_score": 1,
+      "away_score": 0,
+      "away_team": "England",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Schjelderup",
+          "minute": "",
+          "team": "Norway"
+        },
+        {
+          "player": "Bellingham",
+          "minute": ",",
+          "team": "England"
+        }
+      ],
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "attendance": 64478,
+      "referee": "Cl\u00e9ment Turpin"
+    },
+    {
+      "date": "July 11, 2026",
+      "time": "8:00 p.m.",
+      "home_team": "Argentina",
+      "home_score": 3,
+      "away_score": 0,
+      "away_team": "Switzerland",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Mac Allister",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Alvarez",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "La. Mart\u00ednez",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "Ndoye",
+          "minute": "",
+          "team": "Switzerland"
+        }
+      ],
+      "venue": "Arrowhead Stadium, Kansas City",
+      "attendance": 69045,
+      "referee": "Jo\u00e3o Pinheiro"
+    },
+    {
+      "date": "July 14, 2026",
+      "time": "2:00 p.m.",
+      "home_team": "France",
+      "home_score": 0,
+      "away_score": 2,
+      "away_team": "Spain",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Oyarzabal",
+          "minute": "",
+          "team": "Spain"
+        },
+        {
+          "player": "Porro",
+          "minute": "",
+          "team": "Spain"
+        }
+      ],
+      "venue": "AT&T Stadium, Arlington",
+      "attendance": 70176,
+      "referee": "Iv\u00e1n Barton"
+    },
+    {
+      "date": "July 15, 2026",
+      "time": "3:00 p.m.",
+      "home_team": "England",
+      "home_score": 1,
+      "away_score": 2,
+      "away_team": "Argentina",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [
+        {
+          "player": "Gordon",
+          "minute": "",
+          "team": "England"
+        },
+        {
+          "player": "Fern\u00e1ndez",
+          "minute": "",
+          "team": "Argentina"
+        },
+        {
+          "player": "La. Mart\u00ednez",
+          "minute": "",
+          "team": "Argentina"
+        }
+      ],
+      "venue": "Mercedes-Benz Stadium, Atlanta",
+      "attendance": 68239,
+      "referee": "Ismail Elfath"
+    },
+    {
+      "date": "July 18, 2026",
+      "time": "5:00 p.m.",
+      "home_team": "France",
+      "home_score": 0,
+      "away_score": 0,
+      "away_team": "England",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [],
+      "venue": "Hard Rock Stadium, Miami Gardens",
+      "attendance": 0,
+      "referee": ""
+    },
+    {
+      "date": "July 19, 2026",
+      "time": "3:00 p.m.",
+      "home_team": "Spain",
+      "home_score": 0,
+      "away_score": 0,
+      "away_team": "Argentina",
+      "result_type": "normal",
+      "penalty_score": null,
+      "goals": [],
+      "venue": "MetLife Stadium, East Rutherford",
+      "attendance": 0,
+      "referee": ""
+    }
+  ],
+  "goalscorers": {
+    "top_20": [
+      {
+        "player": "Kylian Mbapp\u00e9",
+        "country": "FRA",
+        "goals": 8,
+        "team_name": "France"
+      },
+      {
+        "player": "Lionel Messi",
+        "country": "ARG",
+        "goals": 8,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Erling Haaland",
+        "country": "NOR",
+        "goals": 7,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Harry Kane",
+        "country": "ENG",
+        "goals": 6,
+        "team_name": "England"
+      },
+      {
+        "player": "Jude Bellingham",
+        "country": "ENG",
+        "goals": 6,
+        "team_name": "England"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "country": "ESP",
+        "goals": 5,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Ousmane Demb\u00e9l\u00e9",
+        "country": "FRA",
+        "goals": 5,
+        "team_name": "France"
+      },
+      {
+        "player": "Isma\u00efla Sarr",
+        "country": "SEN",
+        "goals": 4,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Juli\u00e1n Qui\u00f1ones",
+        "country": "MEX",
+        "goals": 4,
+        "team_name": "Mexico"
+      },
+      {
+        "player": "Vin\u00edcius J\u00fanior",
+        "country": "BRA",
+        "goals": 4,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Brian Brobbey",
+        "country": "NED",
+        "goals": 3,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Charles De Ketelaere",
+        "country": "BEL",
+        "goals": 3,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Cody Gakpo",
+        "country": "NED",
+        "goals": 3,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "country": "POR",
+        "goals": 3,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Deniz Undav",
+        "country": "GER",
+        "goals": 3,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Elijah Just",
+        "country": "NZL",
+        "goals": 3,
+        "team_name": "New Zealand"
+      },
+      {
+        "player": "Folarin Balogun",
+        "country": "USA",
+        "goals": 3,
+        "team_name": "United States"
+      },
+      {
+        "player": "Ismael Saibari",
+        "country": "MAR",
+        "goals": 3,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Johan Manzambi",
+        "country": "SUI",
+        "goals": 3,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Jonathan David",
+        "country": "CAN",
+        "goals": 3,
+        "team_name": "Canada"
+      }
+    ],
+    "all": [
+      {
+        "player": "Kylian Mbapp\u00e9",
+        "country": "FRA",
+        "goals": 8,
+        "team_name": "France"
+      },
+      {
+        "player": "Lionel Messi",
+        "country": "ARG",
+        "goals": 8,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Erling Haaland",
+        "country": "NOR",
+        "goals": 7,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Harry Kane",
+        "country": "ENG",
+        "goals": 6,
+        "team_name": "England"
+      },
+      {
+        "player": "Jude Bellingham",
+        "country": "ENG",
+        "goals": 6,
+        "team_name": "England"
+      },
+      {
+        "player": "Mikel Oyarzabal",
+        "country": "ESP",
+        "goals": 5,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Ousmane Demb\u00e9l\u00e9",
+        "country": "FRA",
+        "goals": 5,
+        "team_name": "France"
+      },
+      {
+        "player": "Isma\u00efla Sarr",
+        "country": "SEN",
+        "goals": 4,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Juli\u00e1n Qui\u00f1ones",
+        "country": "MEX",
+        "goals": 4,
+        "team_name": "Mexico"
+      },
+      {
+        "player": "Vin\u00edcius J\u00fanior",
+        "country": "BRA",
+        "goals": 4,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Brian Brobbey",
+        "country": "NED",
+        "goals": 3,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Charles De Ketelaere",
+        "country": "BEL",
+        "goals": 3,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Cody Gakpo",
+        "country": "NED",
+        "goals": 3,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Cristiano Ronaldo",
+        "country": "POR",
+        "goals": 3,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Deniz Undav",
+        "country": "GER",
+        "goals": 3,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Elijah Just",
+        "country": "NZL",
+        "goals": 3,
+        "team_name": "New Zealand"
+      },
+      {
+        "player": "Folarin Balogun",
+        "country": "USA",
+        "goals": 3,
+        "team_name": "United States"
+      },
+      {
+        "player": "Ismael Saibari",
+        "country": "MAR",
+        "goals": 3,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Johan Manzambi",
+        "country": "SUI",
+        "goals": 3,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Jonathan David",
+        "country": "CAN",
+        "goals": 3,
+        "team_name": "Canada"
+      },
+      {
+        "player": "Kai Havertz",
+        "country": "GER",
+        "goals": 3,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Lautaro Mart\u00ednez",
+        "country": "ARG",
+        "goals": 3,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Matheus Cunha",
+        "country": "BRA",
+        "goals": 3,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Ra\u00fal Jim\u00e9nez",
+        "country": "MEX",
+        "goals": 3,
+        "team_name": "Mexico"
+      },
+      {
+        "player": "Romelu Lukaku",
+        "country": "BEL",
+        "goals": 3,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Yoane Wissa",
+        "country": "COD",
+        "goals": 3,
+        "team_name": "DR Congo"
+      },
+      {
+        "player": "Amad Diallo",
+        "country": "CIV",
+        "goals": 2,
+        "team_name": "Ivory Coast"
+      },
+      {
+        "player": "Anthony Elanga",
+        "country": "SWE",
+        "goals": 2,
+        "team_name": "Sweden"
+      },
+      {
+        "player": "Ayase Ueda",
+        "country": "JPN",
+        "goals": 2,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Azzedine Ounahi",
+        "country": "MAR",
+        "goals": 2,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Bradley Barcola",
+        "country": "FRA",
+        "goals": 2,
+        "team_name": "France"
+      },
+      {
+        "player": "Breel Embolo",
+        "country": "SUI",
+        "goals": 2,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Crysencio Summerville",
+        "country": "NED",
+        "goals": 2,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Cyle Larin",
+        "country": "CAN",
+        "goals": 2,
+        "team_name": "Canada"
+      },
+      {
+        "player": "Daichi Kamada",
+        "country": "JPN",
+        "goals": 2,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Dan Ndoye",
+        "country": "SUI",
+        "goals": 2,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Daniel Mu\u00f1oz (footballer)|Daniel Mu\u00f1oz",
+        "country": "COL",
+        "goals": 2,
+        "team_name": "Colombia"
+      },
+      {
+        "player": "Emam Ashour",
+        "country": "EGY",
+        "goals": 2,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "Enzo Fern\u00e1ndez",
+        "country": "ARG",
+        "goals": 2,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Ermin Mahmi\u0107",
+        "country": "BIH",
+        "goals": 2,
+        "team_name": "Bosnia and Herzegovina"
+      },
+      {
+        "player": "Habib Diarra",
+        "country": "SEN",
+        "goals": 2,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Leandro Trossard",
+        "country": "BEL",
+        "goals": 2,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Malik Tillman",
+        "country": "USA",
+        "goals": 2,
+        "team_name": "United States"
+      },
+      {
+        "player": "Marko Arnautovi\u0107",
+        "country": "AUT",
+        "goals": 2,
+        "team_name": "Austria"
+      },
+      {
+        "player": "Maximiliano Ara\u00fajo",
+        "country": "URU",
+        "goals": 2,
+        "team_name": "Uruguay"
+      },
+      {
+        "player": "Mikel Merino",
+        "country": "ESP",
+        "goals": 2,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Mostafa Ziko",
+        "country": "EGY",
+        "goals": 2,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "Nicolas P\u00e9p\u00e9",
+        "country": "CIV",
+        "goals": 2,
+        "team_name": "Ivory Coast"
+      },
+      {
+        "player": "Pape Gueye",
+        "country": "SEN",
+        "goals": 2,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Pedro Porro",
+        "country": "ESP",
+        "goals": 2,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Ramin Rezaeian",
+        "country": "IRN",
+        "goals": 2,
+        "team_name": "Iran"
+      },
+      {
+        "player": "Riyad Mahrez",
+        "country": "ALG",
+        "goals": 2,
+        "team_name": "Algeria"
+      },
+      {
+        "player": "Rub\u00e9n Vargas",
+        "country": "SUI",
+        "goals": 2,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Soufiane Rahimi",
+        "country": "MAR",
+        "goals": 2,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Yasin Ayari",
+        "country": "SWE",
+        "goals": 2,
+        "team_name": "Sweden"
+      },
+      {
+        "player": "Youri Tielemans",
+        "country": "BEL",
+        "goals": 2,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Abbosbek Fayzullaev",
+        "country": "UZB",
+        "goals": 1,
+        "team_name": "Uzbekistan"
+      },
+      {
+        "player": "Abdulelah Al-Amri",
+        "country": "KSA",
+        "goals": 1,
+        "team_name": "Saudi Arabia"
+      },
+      {
+        "player": "Achraf Hakimi",
+        "country": "MAR",
+        "goals": 1,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Agust\u00edn Canobbio",
+        "country": "URU",
+        "goals": 1,
+        "team_name": "Uruguay"
+      },
+      {
+        "player": "Alex Freeman",
+        "country": "USA",
+        "goals": 1,
+        "team_name": "United States"
+      },
+      {
+        "player": "Alexander Isak",
+        "country": "SWE",
+        "goals": 1,
+        "team_name": "Sweden"
+      },
+      {
+        "player": "Alexis Mac Allister",
+        "country": "ARG",
+        "goals": 1,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Alexis Saelemaekers",
+        "country": "BEL",
+        "goals": 1,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Ali Olwan",
+        "country": "JOR",
+        "goals": 1,
+        "team_name": "Jordan"
+      },
+      {
+        "player": "Amine Gouiri",
+        "country": "ALG",
+        "goals": 1,
+        "team_name": "Algeria"
+      },
+      {
+        "player": "Andreas Schjelderup",
+        "country": "NOR",
+        "goals": 1,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Ante Budimir",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Anthony Gordon (footballer)|Anthony Gordon",
+        "country": "ENG",
+        "goals": 1,
+        "team_name": "England"
+      },
+      {
+        "player": "Antonio Nusa",
+        "country": "NOR",
+        "goals": 1,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Arda G\u00fcler",
+        "country": "TUR",
+        "goals": 1,
+        "team_name": "Turkey"
+      },
+      {
+        "player": "Auston Trusty",
+        "country": "USA",
+        "goals": 1,
+        "team_name": "United States"
+      },
+      {
+        "player": "Aymen Hussein",
+        "country": "IRQ",
+        "goals": 1,
+        "team_name": "Iraq"
+      },
+      {
+        "player": "Bar\u0131\u015f Alper Y\u0131lmaz",
+        "country": "TUR",
+        "goals": 1,
+        "team_name": "Turkey"
+      },
+      {
+        "player": "Brian Cipenga",
+        "country": "COD",
+        "goals": 1,
+        "team_name": "DR Congo"
+      },
+      {
+        "player": "Caleb Yirenkyi",
+        "country": "GHA",
+        "goals": 1,
+        "team_name": "Ghana"
+      },
+      {
+        "player": "Casemiro",
+        "country": "BRA",
+        "goals": 1,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Connor Metcalfe",
+        "country": "AUS",
+        "goals": 1,
+        "team_name": "Australia"
+      },
+      {
+        "player": "Cristian Romero",
+        "country": "ARG",
+        "goals": 1,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Daizen Maeda",
+        "country": "JPN",
+        "goals": 1,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Deroy Duarte",
+        "country": "CPV",
+        "goals": 1,
+        "team_name": "Cape Verde"
+      },
+      {
+        "player": "Derrick Luckassen",
+        "country": "GHA",
+        "goals": 1,
+        "team_name": "Ghana"
+      },
+      {
+        "player": "D\u00e9sir\u00e9 Dou\u00e9",
+        "country": "FRA",
+        "goals": 1,
+        "team_name": "France"
+      },
+      {
+        "player": "Eldor Shomurodov",
+        "country": "UZB",
+        "goals": 1,
+        "team_name": "Uzbekistan"
+      },
+      {
+        "player": "Fabi\u00e1n Ruiz",
+        "country": "ESP",
+        "goals": 1,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Felix Nmecha",
+        "country": "GER",
+        "goals": 1,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Finn Surman",
+        "country": "NZL",
+        "goals": 1,
+        "team_name": "New Zealand"
+      },
+      {
+        "player": "Fiston Mayele",
+        "country": "COD",
+        "goals": 1,
+        "team_name": "DR Congo"
+      },
+      {
+        "player": "Franck Kessi\u00e9",
+        "country": "CIV",
+        "goals": 1,
+        "team_name": "Ivory Coast"
+      },
+      {
+        "player": "Gabriel Martinelli",
+        "country": "BRA",
+        "goals": 1,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Gessime Yassine",
+        "country": "MAR",
+        "goals": 1,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Giovani Lo Celso",
+        "country": "ARG",
+        "goals": 1,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Giovanni Reyna",
+        "country": "USA",
+        "goals": 1,
+        "team_name": "United States"
+      },
+      {
+        "player": "Gonzalo Plata",
+        "country": "ECU",
+        "goals": 1,
+        "team_name": "Ecuador"
+      },
+      {
+        "player": "Gon\u00e7alo Ramos",
+        "country": "POR",
+        "goals": 1,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Granit Xhaka",
+        "country": "SUI",
+        "goals": 1,
+        "team_name": "Switzerland"
+      },
+      {
+        "player": "Hans Vanaken",
+        "country": "BEL",
+        "goals": 1,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Hassan Al-Haydos",
+        "country": "QAT",
+        "goals": 1,
+        "team_name": "Qatar"
+      },
+      {
+        "player": "Hazem Mastouri",
+        "country": "TUN",
+        "goals": 1,
+        "team_name": "Tunisia"
+      },
+      {
+        "player": "Hwang In-beom",
+        "country": "KOR",
+        "goals": 1,
+        "team_name": "South Korea"
+      },
+      {
+        "player": "H\u00e9lio Varela",
+        "country": "CPV",
+        "goals": 1,
+        "team_name": "Cape Verde"
+      },
+      {
+        "player": "Ibrahim Mbaye",
+        "country": "SEN",
+        "goals": 1,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Iliman Ndiaye",
+        "country": "SEN",
+        "goals": 1,
+        "team_name": "Senegal"
+      },
+      {
+        "player": "Issa Diop (footballer)|Issa Diop",
+        "country": "MAR",
+        "goals": 1,
+        "team_name": "Morocco"
+      },
+      {
+        "player": "Ivan Peri\u0161i\u0107",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Jamal Musiala",
+        "country": "GER",
+        "goals": 1,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Jaminton Campaz",
+        "country": "COL",
+        "goals": 1,
+        "team_name": "Colombia"
+      },
+      {
+        "player": "Jan Paul van Hecke",
+        "country": "NED",
+        "goals": 1,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Jhon Arias (footballer)|Jhon Arias",
+        "country": "COL",
+        "goals": 1,
+        "team_name": "Colombia"
+      },
+      {
+        "player": "John McGinn",
+        "country": "SCO",
+        "goals": 1,
+        "team_name": "Scotland"
+      },
+      {
+        "player": "Jovo Luki\u0107",
+        "country": "BIH",
+        "goals": 1,
+        "team_name": "Bosnia and Herzegovina"
+      },
+      {
+        "player": "Jo\u00e3o Neves",
+        "country": "POR",
+        "goals": 1,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Julio Enciso (footballer, born 2004)|Julio Enciso",
+        "country": "PAR",
+        "goals": 1,
+        "team_name": "Paraguay"
+      },
+      {
+        "player": "Juli\u00e1n Alvarez",
+        "country": "ARG",
+        "goals": 1,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Junya It\u014d",
+        "country": "JPN",
+        "goals": 1,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Kaan Ayhan",
+        "country": "TUR",
+        "goals": 1,
+        "team_name": "Turkey"
+      },
+      {
+        "player": "Kaish\u016b Sano",
+        "country": "JPN",
+        "goals": 1,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Keito Nakamura",
+        "country": "JPN",
+        "goals": 1,
+        "team_name": "Japan"
+      },
+      {
+        "player": "Kerim Alajbegovi\u0107",
+        "country": "BIH",
+        "goals": 1,
+        "team_name": "Bosnia and Herzegovina"
+      },
+      {
+        "player": "Kevin De Bruyne",
+        "country": "BEL",
+        "goals": 1,
+        "team_name": "Belgium"
+      },
+      {
+        "player": "Kevin Pina (footballer)|Kevin Pina",
+        "country": "CPV",
+        "goals": 1,
+        "team_name": "Cape Verde"
+      },
+      {
+        "player": "Ladislav Krej\u010d\u00ed (footballer, born 1999)|Ladislav Krej\u010d\u00ed",
+        "country": "CZE",
+        "goals": 1,
+        "team_name": "Czech Republic"
+      },
+      {
+        "player": "Lamine Yamal",
+        "country": "ESP",
+        "goals": 1,
+        "team_name": "Spain"
+      },
+      {
+        "player": "Leo \u00d8stig\u00e5rd",
+        "country": "NOR",
+        "goals": 1,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Leroy San\u00e9",
+        "country": "GER",
+        "goals": 1,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Lisandro Mart\u00ednez",
+        "country": "ARG",
+        "goals": 1,
+        "team_name": "Argentina"
+      },
+      {
+        "player": "Livano Comenencia",
+        "country": "CUW",
+        "goals": 1,
+        "team_name": "Cura\u00e7ao"
+      },
+      {
+        "player": "Luis D\u00edaz (footballer, born 1997)|Luis D\u00edaz",
+        "country": "COL",
+        "goals": 1,
+        "team_name": "Colombia"
+      },
+      {
+        "player": "Luis Romo",
+        "country": "MEX",
+        "goals": 1,
+        "team_name": "Mexico"
+      },
+      {
+        "player": "Mahmoud Saber",
+        "country": "EGY",
+        "goals": 1,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "Marcel Sabitzer",
+        "country": "AUT",
+        "goals": 1,
+        "team_name": "Austria"
+      },
+      {
+        "player": "Marcus Holmgren Pedersen",
+        "country": "NOR",
+        "goals": 1,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Marcus Rashford",
+        "country": "ENG",
+        "goals": 1,
+        "team_name": "England"
+      },
+      {
+        "player": "Martin Baturina",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Mateo Ch\u00e1vez",
+        "country": "MEX",
+        "goals": 1,
+        "team_name": "Mexico"
+      },
+      {
+        "player": "Mattias Svanberg",
+        "country": "SWE",
+        "goals": 1,
+        "team_name": "Sweden"
+      },
+      {
+        "player": "Mat\u00edas Galarza (Paraguayan footballer)|Mat\u00edas Galarza",
+        "country": "PAR",
+        "goals": 1,
+        "team_name": "Paraguay"
+      },
+      {
+        "player": "Maur\u00edcio (footballer, born 2001)|Maur\u00edcio",
+        "country": "PAR",
+        "goals": 1,
+        "team_name": "Paraguay"
+      },
+      {
+        "player": "Michal Sad\u00edlek",
+        "country": "CZE",
+        "goals": 1,
+        "team_name": "Czech Republic"
+      },
+      {
+        "player": "Mohamed Salah",
+        "country": "EGY",
+        "goals": 1,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "Mohammad Mohebi",
+        "country": "IRN",
+        "goals": 1,
+        "team_name": "Iran"
+      },
+      {
+        "player": "Musa Al-Taamari]",
+        "country": "JOR",
+        "goals": 1,
+        "team_name": "Jordan"
+      },
+      {
+        "player": "Nadhir Benbouali",
+        "country": "ALG",
+        "goals": 1,
+        "team_name": "Algeria"
+      },
+      {
+        "player": "Nathan Saliba",
+        "country": "CAN",
+        "goals": 1,
+        "team_name": "Canada"
+      },
+      {
+        "player": "Nathaniel Brown (footballer)|Nathaniel Brown",
+        "country": "GER",
+        "goals": 1,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Nestory Irankunda",
+        "country": "AUS",
+        "goals": 1,
+        "team_name": "Australia"
+      },
+      {
+        "player": "Neymar",
+        "country": "BRA",
+        "goals": 1,
+        "team_name": "Brazil"
+      },
+      {
+        "player": "Nico Schlotterbeck",
+        "country": "GER",
+        "goals": 1,
+        "team_name": "Germany"
+      },
+      {
+        "player": "Nikola Vla\u0161i\u0107",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Nilson Angulo",
+        "country": "ECU",
+        "goals": 1,
+        "team_name": "Ecuador"
+      },
+      {
+        "player": "Nizar Al-Rashdan]",
+        "country": "JOR",
+        "goals": 1,
+        "team_name": "Jordan"
+      },
+      {
+        "player": "Nuno Mendes (footballer, born 2002)|Nuno Mendes",
+        "country": "POR",
+        "goals": 1,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Oh Hyeon-gyu",
+        "country": "KOR",
+        "goals": 1,
+        "team_name": "South Korea"
+      },
+      {
+        "player": "Omar Rekik",
+        "country": "TUN",
+        "goals": 1,
+        "team_name": "Tunisia"
+      },
+      {
+        "player": "Petar Musa",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Petar Su\u010di\u0107",
+        "country": "CRO",
+        "goals": 1,
+        "team_name": "Croatia"
+      },
+      {
+        "player": "Promise David",
+        "country": "CAN",
+        "goals": 1,
+        "team_name": "Canada"
+      },
+      {
+        "player": "Rafael Le\u00e3o",
+        "country": "POR",
+        "goals": 1,
+        "team_name": "Portugal"
+      },
+      {
+        "player": "Rafik Belghali",
+        "country": "ALG",
+        "goals": 1,
+        "team_name": "Algeria"
+      },
+      {
+        "player": "Romano Schmid",
+        "country": "AUT",
+        "goals": 1,
+        "team_name": "Austria"
+      },
+      {
+        "player": "Sa\u0161a Kalajd\u017ei\u0107",
+        "country": "AUT",
+        "goals": 1,
+        "team_name": "Austria"
+      },
+      {
+        "player": "Sebastian Berhalter",
+        "country": "USA",
+        "goals": 1,
+        "team_name": "United States"
+      },
+      {
+        "player": "Sidny Lopes Cabral",
+        "country": "CPV",
+        "goals": 1,
+        "team_name": "Cape Verde"
+      },
+      {
+        "player": "Stephen Eust\u00e1quio",
+        "country": "CAN",
+        "goals": 1,
+        "team_name": "Canada"
+      },
+      {
+        "player": "Teboho Mokoena (soccer, born 1997)|Teboho Mokoena",
+        "country": "RSA",
+        "goals": 1,
+        "team_name": "South Africa"
+      },
+      {
+        "player": "Thapelo Maseko",
+        "country": "RSA",
+        "goals": 1,
+        "team_name": "South Africa"
+      },
+      {
+        "player": "Thelo Aasgaard",
+        "country": "NOR",
+        "goals": 1,
+        "team_name": "Norway"
+      },
+      {
+        "player": "Tr\u00e9z\u00e9guet (Egyptian footballer)|Tr\u00e9z\u00e9guet",
+        "country": "EGY",
+        "goals": 1,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "Viktor Gy\u00f6keres",
+        "country": "SWE",
+        "goals": 1,
+        "team_name": "Sweden"
+      },
+      {
+        "player": "Virgil van Dijk",
+        "country": "NED",
+        "goals": 1,
+        "team_name": "Netherlands"
+      },
+      {
+        "player": "Wilson Isidor",
+        "country": "HAI",
+        "goals": 1,
+        "team_name": "Haiti"
+      },
+      {
+        "player": "Yasser Ibrahim",
+        "country": "EGY",
+        "goals": 1,
+        "team_name": "Egypt"
+      },
+      {
+        "player": "\u00c1lex Baena",
+        "country": "ESP",
+        "goals": 1,
+        "team_name": "Spain"
+      },
+      {
+        "player": "\u00c1lvaro Fidalgo",
+        "country": "MEX",
+        "goals": 1,
+        "team_name": "Mexico"
+      }
+    ],
+    "by_country": {
+      "ARG": {
+        "team": "Argentina",
+        "total_goals": 18,
+        "players": [
+          "Lionel Messi",
+          "Lautaro Mart\u00ednez",
+          "Enzo Fern\u00e1ndez",
+          "Alexis Mac Allister",
+          "Cristian Romero",
+          "Giovani Lo Celso",
+          "Juli\u00e1n Alvarez",
+          "Lisandro Mart\u00ednez"
+        ]
+      },
+      "FRA": {
+        "team": "France",
+        "total_goals": 16,
+        "players": [
+          "Kylian Mbapp\u00e9",
+          "Ousmane Demb\u00e9l\u00e9",
+          "Bradley Barcola",
+          "D\u00e9sir\u00e9 Dou\u00e9"
+        ]
+      },
+      "ENG": {
+        "team": "England",
+        "total_goals": 14,
+        "players": [
+          "Harry Kane",
+          "Jude Bellingham",
+          "Anthony Gordon (footballer)|Anthony Gordon",
+          "Marcus Rashford"
+        ]
+      },
+      "BEL": {
+        "team": "Belgium",
+        "total_goals": 13,
+        "players": [
+          "Charles De Ketelaere",
+          "Romelu Lukaku",
+          "Leandro Trossard",
+          "Youri Tielemans",
+          "Alexis Saelemaekers",
+          "Hans Vanaken",
+          "Kevin De Bruyne"
+        ]
+      },
+      "NOR": {
+        "team": "Norway",
+        "total_goals": 12,
+        "players": [
+          "Erling Haaland",
+          "Andreas Schjelderup",
+          "Antonio Nusa",
+          "Leo \u00d8stig\u00e5rd",
+          "Marcus Holmgren Pedersen",
+          "Thelo Aasgaard"
+        ]
+      },
+      "ESP": {
+        "team": "Spain",
+        "total_goals": 12,
+        "players": [
+          "Mikel Oyarzabal",
+          "Mikel Merino",
+          "Pedro Porro",
+          "Fabi\u00e1n Ruiz",
+          "Lamine Yamal",
+          "\u00c1lex Baena"
+        ]
+      },
+      "GER": {
+        "team": "Germany",
+        "total_goals": 11,
+        "players": [
+          "Deniz Undav",
+          "Kai Havertz",
+          "Felix Nmecha",
+          "Jamal Musiala",
+          "Leroy San\u00e9",
+          "Nathaniel Brown (footballer)|Nathaniel Brown",
+          "Nico Schlotterbeck"
+        ]
+      },
+      "SEN": {
+        "team": "Senegal",
+        "total_goals": 10,
+        "players": [
+          "Isma\u00efla Sarr",
+          "Habib Diarra",
+          "Pape Gueye",
+          "Ibrahim Mbaye",
+          "Iliman Ndiaye"
+        ]
+      },
+      "MEX": {
+        "team": "Mexico",
+        "total_goals": 10,
+        "players": [
+          "Juli\u00e1n Qui\u00f1ones",
+          "Ra\u00fal Jim\u00e9nez",
+          "Luis Romo",
+          "Mateo Ch\u00e1vez",
+          "\u00c1lvaro Fidalgo"
+        ]
+      },
+      "BRA": {
+        "team": "Brazil",
+        "total_goals": 10,
+        "players": [
+          "Vin\u00edcius J\u00fanior",
+          "Matheus Cunha",
+          "Casemiro",
+          "Gabriel Martinelli",
+          "Neymar"
+        ]
+      },
+      "NED": {
+        "team": "Netherlands",
+        "total_goals": 10,
+        "players": [
+          "Brian Brobbey",
+          "Cody Gakpo",
+          "Crysencio Summerville",
+          "Jan Paul van Hecke",
+          "Virgil van Dijk"
+        ]
+      },
+      "MAR": {
+        "team": "Morocco",
+        "total_goals": 10,
+        "players": [
+          "Ismael Saibari",
+          "Azzedine Ounahi",
+          "Soufiane Rahimi",
+          "Achraf Hakimi",
+          "Gessime Yassine",
+          "Issa Diop (footballer)|Issa Diop"
+        ]
+      },
+      "SUI": {
+        "team": "Switzerland",
+        "total_goals": 10,
+        "players": [
+          "Johan Manzambi",
+          "Breel Embolo",
+          "Dan Ndoye",
+          "Rub\u00e9n Vargas",
+          "Granit Xhaka"
+        ]
+      },
+      "USA": {
+        "team": "United States",
+        "total_goals": 9,
+        "players": [
+          "Folarin Balogun",
+          "Malik Tillman",
+          "Alex Freeman",
+          "Auston Trusty",
+          "Giovanni Reyna",
+          "Sebastian Berhalter"
+        ]
+      },
+      "CAN": {
+        "team": "Canada",
+        "total_goals": 8,
+        "players": [
+          "Jonathan David",
+          "Cyle Larin",
+          "Nathan Saliba",
+          "Promise David",
+          "Stephen Eust\u00e1quio"
+        ]
+      },
+      "JPN": {
+        "team": "Japan",
+        "total_goals": 8,
+        "players": [
+          "Ayase Ueda",
+          "Daichi Kamada",
+          "Daizen Maeda",
+          "Junya It\u014d",
+          "Kaish\u016b Sano",
+          "Keito Nakamura"
+        ]
+      },
+      "EGY": {
+        "team": "Egypt",
+        "total_goals": 8,
+        "players": [
+          "Emam Ashour",
+          "Mostafa Ziko",
+          "Mahmoud Saber",
+          "Mohamed Salah",
+          "Tr\u00e9z\u00e9guet (Egyptian footballer)|Tr\u00e9z\u00e9guet",
+          "Yasser Ibrahim"
+        ]
+      },
+      "POR": {
+        "team": "Portugal",
+        "total_goals": 7,
+        "players": [
+          "Cristiano Ronaldo",
+          "Gon\u00e7alo Ramos",
+          "Jo\u00e3o Neves",
+          "Nuno Mendes (footballer, born 2002)|Nuno Mendes",
+          "Rafael Le\u00e3o"
+        ]
+      },
+      "SWE": {
+        "team": "Sweden",
+        "total_goals": 7,
+        "players": [
+          "Anthony Elanga",
+          "Yasin Ayari",
+          "Alexander Isak",
+          "Mattias Svanberg",
+          "Viktor Gy\u00f6keres"
+        ]
+      },
+      "CRO": {
+        "team": "Croatia",
+        "total_goals": 6,
+        "players": [
+          "Ante Budimir",
+          "Ivan Peri\u0161i\u0107",
+          "Martin Baturina",
+          "Nikola Vla\u0161i\u0107",
+          "Petar Musa",
+          "Petar Su\u010di\u0107"
+        ]
+      },
+      "COD": {
+        "team": "DR Congo",
+        "total_goals": 5,
+        "players": [
+          "Yoane Wissa",
+          "Brian Cipenga",
+          "Fiston Mayele"
+        ]
+      },
+      "CIV": {
+        "team": "Ivory Coast",
+        "total_goals": 5,
+        "players": [
+          "Amad Diallo",
+          "Nicolas P\u00e9p\u00e9",
+          "Franck Kessi\u00e9"
+        ]
+      },
+      "COL": {
+        "team": "Colombia",
+        "total_goals": 5,
+        "players": [
+          "Daniel Mu\u00f1oz (footballer)|Daniel Mu\u00f1oz",
+          "Jaminton Campaz",
+          "Jhon Arias (footballer)|Jhon Arias",
+          "Luis D\u00edaz (footballer, born 1997)|Luis D\u00edaz"
+        ]
+      },
+      "AUT": {
+        "team": "Austria",
+        "total_goals": 5,
+        "players": [
+          "Marko Arnautovi\u0107",
+          "Marcel Sabitzer",
+          "Romano Schmid",
+          "Sa\u0161a Kalajd\u017ei\u0107"
+        ]
+      },
+      "ALG": {
+        "team": "Algeria",
+        "total_goals": 5,
+        "players": [
+          "Riyad Mahrez",
+          "Amine Gouiri",
+          "Nadhir Benbouali",
+          "Rafik Belghali"
+        ]
+      },
+      "NZL": {
+        "team": "New Zealand",
+        "total_goals": 4,
+        "players": [
+          "Elijah Just",
+          "Finn Surman"
+        ]
+      },
+      "BIH": {
+        "team": "Bosnia and Herzegovina",
+        "total_goals": 4,
+        "players": [
+          "Ermin Mahmi\u0107",
+          "Jovo Luki\u0107",
+          "Kerim Alajbegovi\u0107"
+        ]
+      },
+      "CPV": {
+        "team": "Cape Verde",
+        "total_goals": 4,
+        "players": [
+          "Deroy Duarte",
+          "H\u00e9lio Varela",
+          "Kevin Pina (footballer)|Kevin Pina",
+          "Sidny Lopes Cabral"
+        ]
+      },
+      "URU": {
+        "team": "Uruguay",
+        "total_goals": 3,
+        "players": [
+          "Maximiliano Ara\u00fajo",
+          "Agust\u00edn Canobbio"
+        ]
+      },
+      "IRN": {
+        "team": "Iran",
+        "total_goals": 3,
+        "players": [
+          "Ramin Rezaeian",
+          "Mohammad Mohebi"
+        ]
+      },
+      "JOR": {
+        "team": "Jordan",
+        "total_goals": 3,
+        "players": [
+          "Ali Olwan",
+          "Musa Al-Taamari]",
+          "Nizar Al-Rashdan]"
+        ]
+      },
+      "TUR": {
+        "team": "Turkey",
+        "total_goals": 3,
+        "players": [
+          "Arda G\u00fcler",
+          "Bar\u0131\u015f Alper Y\u0131lmaz",
+          "Kaan Ayhan"
+        ]
+      },
+      "PAR": {
+        "team": "Paraguay",
+        "total_goals": 3,
+        "players": [
+          "Julio Enciso (footballer, born 2004)|Julio Enciso",
+          "Mat\u00edas Galarza (Paraguayan footballer)|Mat\u00edas Galarza",
+          "Maur\u00edcio (footballer, born 2001)|Maur\u00edcio"
+        ]
+      },
+      "UZB": {
+        "team": "Uzbekistan",
+        "total_goals": 2,
+        "players": [
+          "Abbosbek Fayzullaev",
+          "Eldor Shomurodov"
+        ]
+      },
+      "GHA": {
+        "team": "Ghana",
+        "total_goals": 2,
+        "players": [
+          "Caleb Yirenkyi",
+          "Derrick Luckassen"
+        ]
+      },
+      "AUS": {
+        "team": "Australia",
+        "total_goals": 2,
+        "players": [
+          "Connor Metcalfe",
+          "Nestory Irankunda"
+        ]
+      },
+      "ECU": {
+        "team": "Ecuador",
+        "total_goals": 2,
+        "players": [
+          "Gonzalo Plata",
+          "Nilson Angulo"
+        ]
+      },
+      "TUN": {
+        "team": "Tunisia",
+        "total_goals": 2,
+        "players": [
+          "Hazem Mastouri",
+          "Omar Rekik"
+        ]
+      },
+      "KOR": {
+        "team": "South Korea",
+        "total_goals": 2,
+        "players": [
+          "Hwang In-beom",
+          "Oh Hyeon-gyu"
+        ]
+      },
+      "CZE": {
+        "team": "Czech Republic",
+        "total_goals": 2,
+        "players": [
+          "Ladislav Krej\u010d\u00ed (footballer, born 1999)|Ladislav Krej\u010d\u00ed",
+          "Michal Sad\u00edlek"
+        ]
+      },
+      "RSA": {
+        "team": "South Africa",
+        "total_goals": 2,
+        "players": [
+          "Teboho Mokoena (soccer, born 1997)|Teboho Mokoena",
+          "Thapelo Maseko"
+        ]
+      },
+      "KSA": {
+        "team": "Saudi Arabia",
+        "total_goals": 1,
+        "players": [
+          "Abdulelah Al-Amri"
+        ]
+      },
+      "IRQ": {
+        "team": "Iraq",
+        "total_goals": 1,
+        "players": [
+          "Aymen Hussein"
+        ]
+      },
+      "QAT": {
+        "team": "Qatar",
+        "total_goals": 1,
+        "players": [
+          "Hassan Al-Haydos"
+        ]
+      },
+      "SCO": {
+        "team": "Scotland",
+        "total_goals": 1,
+        "players": [
+          "John McGinn"
+        ]
+      },
+      "CUW": {
+        "team": "Cura\u00e7ao",
+        "total_goals": 1,
+        "players": [
+          "Livano Comenencia"
+        ]
+      },
+      "HAI": {
+        "team": "Haiti",
+        "total_goals": 1,
+        "players": [
+          "Wilson Isidor"
+        ]
+      }
+    },
+    "own_goals": []
+  },
+  "venues": [
+    {
+      "venue_name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "matches_hosted": "5 (3 group, 2 knockout)",
+      "capacity": 80824
+    },
+    {
+      "venue_name": "MetLife Stadium",
+      "city": "New York/New Jersey(East Rutherford, New Jersey)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 2 knockout, and the final)",
+      "capacity": 80663
+    },
+    {
+      "venue_name": "AT&T Stadium",
+      "city": "Dallas(Arlington, Texas)",
+      "country": "USA",
+      "matches_hosted": "9 (5 group, 4 knockout)",
+      "capacity": 70649
+    },
+    {
+      "venue_name": "SoFi Stadium",
+      "city": "Los Angeles(Inglewood, California)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 70492
+    },
+    {
+      "venue_name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 69045
+    },
+    {
+      "venue_name": "Levi's Stadium",
+      "city": "San Francisco Bay Area(Santa Clara, California)",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68827
+    },
+    {
+      "venue_name": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 68777
+    },
+    {
+      "venue_name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68324
+    },
+    {
+      "venue_name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 68239
+    },
+    {
+      "venue_name": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 66925
+    },
+    {
+      "venue_name": "Hard Rock Stadium",
+      "city": "Miami(Miami Gardens, Florida)",
+      "country": "USA",
+      "matches_hosted": "7 (4 group, 2 knockout, and third-place)",
+      "capacity": 64478
+    },
+    {
+      "venue_name": "Gillette Stadium",
+      "city": "Boston(Foxborough, Massachusetts)",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 64146
+    },
+    {
+      "venue_name": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 52497
+    },
+    {
+      "venue_name": "Estadio BBVA",
+      "city": "Monterrey(Guadalupe, Nuevo Le\u00f3n)",
+      "country": "USA",
+      "matches_hosted": "4 (3 group, 1 knockout)",
+      "capacity": 51243
+    },
+    {
+      "venue_name": "Estadio Akron",
+      "city": "Guadalajara(Zapopan, Jalisco)",
+      "country": "USA",
+      "matches_hosted": "4 (4 group)",
+      "capacity": 45664
+    },
+    {
+      "venue_name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 43036
+    }
+  ],
+  "awards": {
+    "golden_boot": "Top goalscorer - Messi & Mbapp\u00e9 tied (8 goals)",
+    "golden_glove": "Best goalkeeper - To be awarded",
+    "golden_ball": "Best player - To be awarded",
+    "fifa_young_player": "Best young player - To be awarded",
+    "fair_play": "Best fair play - To be awarded",
+    "player_of_match": "Awarded after each match"
+  }
+}

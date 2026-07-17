@@ -1,0 +1,510 @@
+{
+  "goalscorers": [
+    {
+      "player": "Mbapp\u00e9",
+      "goals": 3,
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "player": "Haaland",
+      "goals": 2,
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "player": "Qui\u00f1ones",
+      "goals": 2,
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "player": "Jim\u00e9nez",
+      "goals": 2,
+      "teams": [
+        "Mexico"
+      ]
+    },
+    {
+      "player": "Kane",
+      "goals": 2,
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "player": "Lukaku",
+      "goals": 2,
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "player": "Tillman",
+      "goals": 2,
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "player": "Oyarzabal",
+      "goals": 2,
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "player": "Porro",
+      "goals": 2,
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "player": "Ndoye",
+      "goals": 2,
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "player": "Messi",
+      "goals": 2,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Bellingham",
+      "goals": 2,
+      "teams": [
+        "England"
+      ]
+    },
+    {
+      "player": "Merino",
+      "goals": 2,
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "player": "De Ketelaere",
+      "goals": 2,
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "player": "Fern\u00e1ndez",
+      "goals": 2,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "La. Mart\u00ednez",
+      "goals": 2,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Eust\u00e1quio",
+      "goals": 1,
+      "teams": [
+        "Canada"
+      ]
+    },
+    {
+      "player": "Casemiro",
+      "goals": 1,
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "player": "Martinelli",
+      "goals": 1,
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "player": "Sano",
+      "goals": 1,
+      "teams": [
+        "Japan"
+      ]
+    },
+    {
+      "player": "Havertz",
+      "goals": 1,
+      "teams": [
+        "Germany"
+      ]
+    },
+    {
+      "player": "Enciso",
+      "goals": 1,
+      "teams": [
+        "Paraguay"
+      ]
+    },
+    {
+      "player": "Gakpo",
+      "goals": 1,
+      "teams": [
+        "Netherlands"
+      ]
+    },
+    {
+      "player": "Diop",
+      "goals": 1,
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "player": "Diallo",
+      "goals": 1,
+      "teams": [
+        "Ivory Coast"
+      ]
+    },
+    {
+      "player": "Nusa",
+      "goals": 1,
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "player": "Barcola",
+      "goals": 1,
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "player": "Cipenga",
+      "goals": 1,
+      "teams": [
+        "DR Congo"
+      ]
+    },
+    {
+      "player": "Tielemans",
+      "goals": 1,
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "player": "Diarra",
+      "goals": 1,
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "player": "I. Sarr",
+      "goals": 1,
+      "teams": [
+        "Senegal"
+      ]
+    },
+    {
+      "player": "Balogun",
+      "goals": 1,
+      "teams": [
+        "United States"
+      ]
+    },
+    {
+      "player": "Ronaldo",
+      "goals": 1,
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "player": "Ramos",
+      "goals": 1,
+      "teams": [
+        "Portugal"
+      ]
+    },
+    {
+      "player": "Peri\u0161i\u0107",
+      "goals": 1,
+      "teams": [
+        "Croatia"
+      ]
+    },
+    {
+      "player": "Embolo",
+      "goals": 1,
+      "teams": [
+        "Switzerland"
+      ]
+    },
+    {
+      "player": "Hany",
+      "goals": 1,
+      "teams": [
+        "Australia"
+      ]
+    },
+    {
+      "player": "Ashour",
+      "goals": 1,
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "player": "Li. Mart\u00ednez",
+      "goals": 1,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Diney",
+      "goals": 1,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "D. Duarte",
+      "goals": 1,
+      "teams": [
+        "Cape Verde"
+      ]
+    },
+    {
+      "player": "Lopes Cabral",
+      "goals": 1,
+      "teams": [
+        "Cape Verde"
+      ]
+    },
+    {
+      "player": "J. Arias",
+      "goals": 1,
+      "teams": [
+        "Colombia"
+      ]
+    },
+    {
+      "player": "Ounahi",
+      "goals": 1,
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "player": "Rahimi",
+      "goals": 1,
+      "teams": [
+        "Morocco"
+      ]
+    },
+    {
+      "player": "Neymar",
+      "goals": 1,
+      "teams": [
+        "Brazil"
+      ]
+    },
+    {
+      "player": "Vanaken",
+      "goals": 1,
+      "teams": [
+        "Belgium"
+      ]
+    },
+    {
+      "player": "Romero",
+      "goals": 1,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Ibrahim",
+      "goals": 1,
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "player": "Ziko",
+      "goals": 1,
+      "teams": [
+        "Egypt"
+      ]
+    },
+    {
+      "player": "Demb\u00e9l\u00e9",
+      "goals": 1,
+      "teams": [
+        "France"
+      ]
+    },
+    {
+      "player": "Fabi\u00e1n",
+      "goals": 1,
+      "teams": [
+        "Spain"
+      ]
+    },
+    {
+      "player": "Schjelderup",
+      "goals": 1,
+      "teams": [
+        "Norway"
+      ]
+    },
+    {
+      "player": "Mac Allister",
+      "goals": 1,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Alvarez",
+      "goals": 1,
+      "teams": [
+        "Argentina"
+      ]
+    },
+    {
+      "player": "Gordon",
+      "goals": 1,
+      "teams": [
+        "England"
+      ]
+    }
+  ],
+  "venues": [
+    {
+      "venue_name": "Estadio Azteca",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "matches_hosted": "5 (3 group, 2 knockout)",
+      "capacity": 80824
+    },
+    {
+      "venue_name": "MetLife Stadium",
+      "city": "New York/New Jersey(East Rutherford, New Jersey)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 2 knockout, and the final)",
+      "capacity": 80663
+    },
+    {
+      "venue_name": "AT&T Stadium",
+      "city": "Dallas(Arlington, Texas)",
+      "country": "USA",
+      "matches_hosted": "9 (5 group, 4 knockout)",
+      "capacity": 70649
+    },
+    {
+      "venue_name": "SoFi Stadium",
+      "city": "Los Angeles(Inglewood, California)",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 70492
+    },
+    {
+      "venue_name": "Arrowhead Stadium",
+      "city": "Kansas City",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 69045
+    },
+    {
+      "venue_name": "Levi's Stadium",
+      "city": "San Francisco Bay Area(Santa Clara, California)",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68827
+    },
+    {
+      "venue_name": "NRG Stadium",
+      "city": "Houston",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 68777
+    },
+    {
+      "venue_name": "Lincoln Financial Field",
+      "city": "Philadelphia",
+      "country": "USA",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 68324
+    },
+    {
+      "venue_name": "Mercedes-Benz Stadium",
+      "city": "Atlanta",
+      "country": "USA",
+      "matches_hosted": "8 (5 group, 3 knockout)",
+      "capacity": 68239
+    },
+    {
+      "venue_name": "Lumen Field",
+      "city": "Seattle",
+      "country": "USA",
+      "matches_hosted": "6 (4 group, 2 knockout)",
+      "capacity": 66925
+    },
+    {
+      "venue_name": "Hard Rock Stadium",
+      "city": "Miami(Miami Gardens, Florida)",
+      "country": "USA",
+      "matches_hosted": "7 (4 group, 2 knockout, and third-place)",
+      "capacity": 64478
+    },
+    {
+      "venue_name": "Gillette Stadium",
+      "city": "Boston(Foxborough, Massachusetts)",
+      "country": "USA",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 64146
+    },
+    {
+      "venue_name": "BC Place",
+      "city": "Vancouver",
+      "country": "Canada",
+      "matches_hosted": "7 (5 group, 2 knockout)",
+      "capacity": 52497
+    },
+    {
+      "venue_name": "Estadio BBVA",
+      "city": "Monterrey(Guadalupe, Nuevo Le\u00f3n)",
+      "country": "USA",
+      "matches_hosted": "4 (3 group, 1 knockout)",
+      "capacity": 51243
+    },
+    {
+      "venue_name": "Estadio Akron",
+      "city": "Guadalajara(Zapopan, Jalisco)",
+      "country": "USA",
+      "matches_hosted": "4 (4 group)",
+      "capacity": 45664
+    },
+    {
+      "venue_name": "BMO Field",
+      "city": "Toronto",
+      "country": "Canada",
+      "matches_hosted": "6 (5 group, 1 knockout)",
+      "capacity": 43036
+    }
+  ]
+}
