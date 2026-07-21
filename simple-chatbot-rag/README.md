@@ -30,12 +30,15 @@ options)* · **a GPU + the NVIDIA GPU Operator** *(for Demo 2)*.
 ---
 
 ## Customize before you deploy
-In AI Factory, **clone the blueprint** and edit each app's values, then deploy. Several settings below are entries
+In AI Factory, **copy the blueprint** and edit each app's values, then deploy. Several settings below are entries
 in `open-webui`'s single **`extraEnvVars`** list — **append them all to the one list** (don't replace what's there).
 
 ![Edit the blueprint](../assets/Simple_Chatbot_with_RAG-edit-blueprint.gif)
 
 ### 1. Model (and GPU)
+
+Here are the minimum models I would try for each demo.
+
 | Demo | Model | ~RAM/VRAM *(approx, Q4 quant)* |
 |---|---|---|
 | RAG | `qwen2.5:3b` | ~4 GB |
@@ -77,7 +80,7 @@ global:
     source: secret          # required — otherwise the chart still issues a self-signed cert
 ingress:
   class: traefik            # your IngressClass (empty by default)
-  host: suse-ollama-webui.dev-ai.dna-42.com          #update with url to the node you are deploying to
+  host: suse-ollama-webui.dev-ai.dna-42.com   # a hostname that resolves to your ingress node
   tls: false
   annotations: {}           # drop the ssl-redirect
 ```
@@ -130,10 +133,18 @@ The model must also **invoke** the tool — use `qwen2.5:7b` and turn on **Nativ
 ---
 
 ## Deploy & verify
-Deploy the customized blueprint, then:
 
+Deploy the customized blueprint to your target cluster.
 
+![Deploy the blueprint](../assets/Simple_Chatbot_with_RAG-open-webui-deploy.gif)
 
+Watch it come up in Rancher under **Workloads → Pods**, filtered to the namespace you deployed to.
+
+![Watch the deployment](../assets/Simple_Chatbot_with_RAG-open-webui-deploy-watch.gif)
+
+Open the URL and create the `admin` user (the first account becomes admin).
+
+![Create the admin user](../assets/Simple_Chatbot_with_RAG-open-webui-create-admin.gif)
 
 ---
 
@@ -143,13 +154,22 @@ Runs on **CPU** with `qwen2.5:3b`. Needs only a reachable web UI — **no MCPO w
 **First-run:** open the URL → the **first account you create becomes admin** → confirm `qwen2.5:3b` is selected →
 send "hi" to warm up (the first CPU response is the slowest).
 
+**Ask without RAG first (baseline):** the model *doesn't* know the document's facts — that's the "before" shot.
+
+![Asking without RAG](../assets/Simple_Chatbot_with_RAG-open-Demo-1-without-Rag.gif)
+
 **Run it:**
 1. **Workspace → Knowledge → Create** a knowledge base named **"Event Horizon"**.
 2. Upload the included **[`project_event_horizon_facility.pdf`](./project_event_horizon_facility.pdf)**.
+
+![Set up the RAG knowledge base](../assets/Simple_Chatbot_with_RAG-open-Demo-1-setup-Rag.gif)
+
 3. New chat → type **`#`** → select **Event Horizon** to attach it.
 4. Ask the questions below — answers come back **with citations** (click to show the retrieved text).
 5. **The reveal:** ask the same question in a chat **without** the `#` knowledge base — the model doesn't know.
    Same model, one attaches your data, one doesn't. That contrast *is* the demo.
+
+![Asking with RAG](../assets/Simple_Chatbot_with_RAG-open-Demo-1-with-Rag.gif)
 
 | Ask | Expected grounded answer |
 |---|---|
@@ -177,7 +197,7 @@ that never becomes a real tool call. **This is the single biggest reliability fi
    knowledge base**, or the retriever muddies the tool answers.
 2. **Store** — lead with "**create**" so it calls `create_entities` (not `add_observations` on an entity that
    doesn't exist yet):
-   > *"Create a memory entity for me: I'm Erin, I work at SUSE on the AI team, and my favorite database is PostgreSQL. Whenever I’m working on a Linux workstation or server, I’m working on OpenSUSE or SUSE Linux Enterprise Server. Also give me commands the SUSE Operating systems"*
+   > *"Create a memory entity for me: I'm Erin, I work at SUSE on the AI team, and my favorite database is PostgreSQL. Whenever I’m working on a Linux workstation or server, I’m working on OpenSUSE or SUSE Linux Enterprise Server. Also, give me commands for the SUSE operating systems."*
 3. **Recall in a brand-new chat** (memory on, nothing attached) — no chat history, yet it still knows. That's the payoff:
    > - *"What do you know about me?"* → Erin, works at SUSE on the AI team, favorite database PostgreSQL, runs OpenSUSE / SLES
    > - *"What's my favorite database?"* → PostgreSQL
@@ -204,6 +224,7 @@ model can't know (black-hole core power, sub-5-decibel rooms, zero municipal wat
 | open-webui pod **fails to create**: `cannot unmarshal array into … EnvVar…value of type string` | `TOOL_SERVER_CONNECTIONS` entered as expanded YAML | Re-enter as a **single-line, single-quoted** string. |
 | mcpo URL has **spaces** (`open-webui-␣␣␣mcpo`) | a `>-` fold / line-wrap | never fold this value |
 | **404** on the UI host | `ingress.class` ≠ your controller's IngressClass (e.g. `trarfik`) | set `ingress.class` to `traefik` (or your class) |
+| **can't reach the UI / no Service created** | `service.type` misspelled (e.g. `Nodeport`) | it's case-sensitive — use exactly `NodePort` / `LoadBalancer` / `ClusterIP` |
 | UI **500 / redirects to `/error`** | `INSTALL_NLTK_DATASETS=true` hit a GitHub 429 | set `"false"`, restart |
 | **"Failed to connect … OpenAPI tool server"** | wrong tool URL, or mcpo not ready | use `http://open-webui-mcpo:8000/memory`; check the mcpo pod |
 | Tool added but **no tools appear** | missing `/memory` subpath | use `…/memory` |
