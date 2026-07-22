@@ -10,6 +10,9 @@ A very basic RAG system: import a document, then use Open WebUI to ask questions
 ### [Simple Chatbot with RAG (vLLM and Milvus)](simple-chatbot-rag-vllm-milvus/README.md)
 The GPU-accelerated version: vLLM serves the model over an OpenAI-compatible API, with **Milvus** as the RAG vector store.
 
+### [NVIDIA RAG (minimal, low-GPU)](nvidia-rag-minimal/README.md)
+A full **NVIDIA NIM** RAG pipeline (Llama 3.2 3B + Nemotron embed/rerank + nv-ingest + Milvus), tuned to fit a single ~24 GB GPU.
+
 ---
 
 ## Install SUSE AI Factory

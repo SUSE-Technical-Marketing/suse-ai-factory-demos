@@ -184,27 +184,52 @@ send "hi" to warm up (the first CPU response is the slowest).
 ---
 
 # Demo 2 — MCPO memory tool (needs a GPU)
-The memory tool lets the bot **write to and read from a persistent knowledge graph across chats**. Reliable
-tool-calling needs a **7B model on a GPU** — make sure you did **[Model + GPU](#1-model-and-gpu)** and
-**[wired the tool](#4-demo-2-only--wire-the-memory-tool)** above.
+The memory tool gives the bot a **persistent knowledge graph** it writes to and reads from **across chats**. The
+payoff: teach it something in one chat, then in a **brand-new chat with no history** it still knows — and *applies*
+it. We'll teach it that you run **SUSE Linux**, then watch it hand back **`zypper`** commands in a fresh chat.
 
-**Turn on Native function calling (in the UI):** Admin Panel → Settings → Models → *(your model)* → Advanced Params
-→ **Function Calling → `Native`**. The prompt-based "Default" mode makes the model emit fake JSON (a `{}` or a blob)
-that never becomes a real tool call. **This is the single biggest reliability fix.**
+> **How the memory tool actually behaves:** it's *recall-on-request*, not always-on context. The model only uses a
+> stored fact if it **calls the memory tool** on that turn. So the demo (1) turns on the tool, (2) uses a system
+> prompt telling the model to consult memory, and (3) leans on phrasing that invokes it. Storing a fact alone won't
+> silently change answers.
 
-**Run it:**
-1. New chat → click the **🔧 tools icon** → toggle **memory** on. Keep RAG out of it — **don't `#`-attach a
-   knowledge base**, or the retriever muddies the tool answers.
-2. **Store** — lead with "**create**" so it calls `create_entities` (not `add_observations` on an entity that
-   doesn't exist yet):
-   > *"Create a memory entity for me: I'm Erin, I work at SUSE on the AI team, and my favorite database is PostgreSQL. Whenever I’m working on a Linux workstation or server, I’m working on OpenSUSE or SUSE Linux Enterprise Server. Also, give me commands for the SUSE operating systems."*
-3. **Recall in a brand-new chat** (memory on, nothing attached) — no chat history, yet it still knows. That's the payoff:
-   > - *"What do you know about me?"* → Erin, works at SUSE on the AI team, favorite database PostgreSQL, runs OpenSUSE / SLES
-   > - *"What's my favorite database?"* → PostgreSQL
-   > - *"How do I install and update a package on my system?"* → gives **`zypper`** commands (`zypper install …`, `zypper update`) — because it remembers you run SUSE/OpenSUSE, it applies the preference **without you saying so in this chat**. That "it just knows my environment" moment is the demo.
+### Setup (once)
+1. **GPU + `qwen2.5:7b`** and the **mcpo tool wired** — see **[Model + GPU](#1-model-and-gpu)** and
+   **[wire the tool](#4-demo-2-only--wire-the-memory-tool)**.
+2. **Native function calling ON:** Admin Panel → Settings → Models → `qwen2.5:7b` → Advanced Params →
+   **Function Calling → `Native`**. (The "Default" prompt mode emits fake JSON that never fires — this is the single
+   biggest reliability fix.)
+3. **Give the model a memory system prompt** (Admin → Settings → Models → `qwen2.5:7b` → **System Prompt**) so it
+   actually consults its memory:
+   > *You have a persistent memory tool. Before answering questions about the user or giving shell/Linux commands,
+   > call `read_graph` to load the user's stored preferences and apply them. When the user tells you something to
+   > remember, store it with `create_entities` and always include an `entityType`.*
 
-> **If the store errors** with *"entity not found"* (a `500` on `add_observations`), the model skipped the create
-> step — just retry, or re-lead with "**Create** a memory entry…". It's non-deterministic even on 7B.
+### Act 1 — Teach it (chat A)
+New chat → click the **🔧 tools icon** → toggle **memory** on (keep RAG **off** — don't `#`-attach a knowledge
+base). Then:
+> *"Remember this about me as a preference: I run SUSE Linux (openSUSE / SLES), so always give me `zypper`
+> commands, never apt or yum."*
+
+It calls `create_entities` and saves the preference.
+
+### Act 2 — Prove it persists (brand-new chat)
+Open a **new chat** — no history, memory still on — and ask:
+> *"What do you know about my setup?"*
+
+It calls `read_graph` and recalls that you run SUSE. Different chat, zero context — it still knows.
+
+### Act 3 — The payoff (same new chat)
+> *"Based on what you know about my system, how do I install and update nginx?"*
+
+It returns **`zypper install nginx`** / **`zypper up`** — not `apt` — because it pulled your distro from memory,
+not from anything you said in *this* chat. That "it just knows my environment" moment is the demo. *(With the
+system prompt set, even a plain "how do I install nginx?" will pull from memory.)*
+
+> **Troubleshooting the store:** if it errors with a **422 / "issue with the JSON input format"**, the model
+> omitted the required **`entityType`** — just retry, or say *"store it as a preference named `linux` of type
+> `preference`"*. It's non-deterministic even on 7B. If it answers with `apt` anyway, it skipped the memory lookup
+> — re-ask *"based on what you remember about my OS, redo that."*
 
 > 🎥 **Video:** _add the MCPO demo walkthrough link here._
 
